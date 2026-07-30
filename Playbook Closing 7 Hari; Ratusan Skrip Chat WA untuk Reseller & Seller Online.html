@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playbook Closing WA — Amunisi 230+ Template Chat Penjualan & Closing WhatsApp</title>
+  <meta name="description" content="Kumpulan 230+ Template Chat WA Penjualan, Handling Objection, Broadcast, Upselling, Retensi, & Handling Komplain untuk UMKM, Reseller, & Admin WA di Indonesia.">
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-main: #0f172a;
+      --bg-card: #1e293b;
+      --bg-card-hover: #334155;
+      --bg-sidebar: #0f172a;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #25d366;
+      --accent-hover: #1ebd59;
+      --accent-glow: rgba(37, 211, 102, 0.25);
+      --border-color: #334155;
+      --badge-bg: rgba(37, 211, 102, 0.15);
+      --badge-text: #4ade80;
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+      --font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    [data-theme="light"] {
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f1f5f9;
+      --bg-sidebar: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --accent: #16a34a;
+      --accent-hover: #15803d;
+      --accent-glow: rgba(22, 163, 74, 0.2);
+      --border-color: #e2e8f0;
+      --badge-bg: rgba(22, 163, 74, 0.1);
+      --badge-text: #15803d;
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header Navbar */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    [data-theme="light"] header {
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #25d366, #128c7e);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 800;
+      font-size: 20px;
+      box-shadow: 0 4px 12px var(--accent-glow);
+    }
+
+    .brand-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #4ade80, #25d366);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-subtitle {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-icon {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-icon:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent);
+    }
+
+    /* Main Container */
+    .app-container {
+      display: flex;
+      flex: 1;
+    }
+
+    /* Sidebar Navigation */
+    aside {
+      width: 310px;
+      background: var(--bg-sidebar);
+      border-right: 1px solid var(--border-color);
+      padding: 20px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: sticky;
+      top: 65px;
+      height: calc(100vh - 65px);
+      overflow-y: auto;
+    }
+
+    .nav-group-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      padding-left: 8px;
+    }
+
+    .nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .nav-item {
+      padding: 10px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+    }
+
+    .nav-item:hover, .nav-item.active {
+      background: var(--bg-card-hover);
+      color: var(--text-main);
+    }
+
+    .nav-item.active {
+      border-left: 4px solid var(--accent);
+      background: var(--bg-card);
+      color: var(--accent);
+    }
+
+    .badge-count {
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    /* Main Content Area */
+    main {
+      flex: 1;
+      padding: 24px 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* Customizer & Search Panel */
+    .top-controls {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 260px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 12px 16px 12px 42px;
+      color: var(--text-main);
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-box input:focus {
+      border-color: var(--accent);
+    }
+
+    .search-box svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+    }
+
+    .filter-select {
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 0 16px;
+      color: var(--text-main);
+      font-size: 0.875rem;
+      font-family: inherit;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Live Placeholder Replacer Accordion */
+    .customizer-title {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .customizer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+
+    .input-field {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .input-field label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .input-field input {
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 8px 12px;
+      color: var(--text-main);
+      font-size: 0.85rem;
+      font-family: inherit;
+      outline: none;
+    }
+
+    .input-field input:focus {
+      border-color: var(--accent);
+    }
+
+    /* Section Banner */
+    .section-header {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+
+    .section-desc {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    /* Template Cards Grid */
+    .template-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .template-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 20px;
+      transition: all 0.2s ease;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .template-card:hover {
+      border-color: var(--accent);
+      box-shadow: var(--shadow);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .card-number-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card-num {
+      background: var(--accent);
+      color: #0f172a;
+      font-weight: 800;
+      font-size: 0.85rem;
+      width: 36px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .card-tags {
+      display: flex;
+      gap: 6px;
+    }
+
+    .tag-style {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .chat-bubble {
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 0.95rem;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: inherit;
+      color: var(--text-main);
+      position: relative;
+    }
+
+    .card-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    .btn-copy {
+      background: linear-gradient(135deg, #25d366, #16a34a);
+      color: #ffffff;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.875rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px var(--accent-glow);
+    }
+
+    .btn-copy:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px var(--accent-glow);
+    }
+
+    .btn-fav {
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .btn-fav.active {
+      color: #f59e0b;
+      border-color: #f59e0b;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #25d366;
+      color: #0f172a;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-weight: 700;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s ease;
+      z-index: 1000;
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* Power Words Section Styling */
+    .power-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .power-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 18px;
+    }
+
+    .power-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .power-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .power-item {
+      background: var(--bg-main);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Print View Styling */
+    @media print {
+      header, aside, .top-controls, .card-actions, .toast {
+        display: none !important;
+      }
+      body {
+        background: #fff;
+        color: #000;
+      }
+      main {
+        max-width: 100%;
+        padding: 0;
+      }
+      .template-card {
+        border: 1px solid #ccc;
+        break-inside: avoid;
+        margin-bottom: 12px;
+        background: #fff;
+        color: #000;
+      }
+      .chat-bubble {
+        background: #f5f5f5;
+        color: #000;
+        border: 1px solid #ddd;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .app-container {
+        flex-direction: column;
+      }
+      aside {
+        width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+      }
+      main {
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-icon">WA</div>
+      <div>
+        <div class="brand-title">Playbook Closing WA</div>
+        <div class="brand-subtitle">Amunisi 230+ Template Chat Penjualan, Power Words, & Handling Komplain</div>
+      </div>
+    </div>
+    <div class="header-controls">
+      <button class="btn-icon" style="background: var(--accent); color: #0f172a; font-weight: 700;" onclick="openGuideModal()">
+        📖 Panduan Kustomisasi
+      </button>
+      <button class="btn-icon" id="btnThemeToggle" onclick="toggleTheme()">
+        🌙 Mode Gelap/Terang
+      </button>
+      <button class="btn-icon" onclick="window.print()">
+        🖨️ Cetak / PDF
+      </button>
+    </div>
+  </header>
+
+  <!-- App Main Container -->
+  <div class="app-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside>
+      <div>
+        <div class="nav-group-title">Menu Utama</div>
+        <ul class="nav-list">
+          <li class="nav-item active" data-cat="all" onclick="selectCategory('all', this)">
+            <span>📁 Semua Template</span>
+            <span class="badge-count" id="count-all">230</span>
+          </li>
+          <li class="nav-item" data-cat="fav" onclick="selectCategory('fav', this)">
+            <span>⭐ Favorit Saya</span>
+            <span class="badge-count" id="count-fav">0</span>
+          </li>
+          <li class="nav-item" data-cat="powerwords" onclick="selectCategory('powerwords', this)">
+            <span>⚡ Power Words & CTA</span>
+            <span class="badge-count">65</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="nav-group-title">BAGIAN 1: 7 SKENARIO SALES (205)</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-cat="followup" onclick="selectCategory('followup', this)">
+            <span>1. Follow Up</span>
+            <span class="badge-count">40</span>
+          </li>
+          <li class="nav-item" data-cat="closing" onclick="selectCategory('closing', this)">
+            <span>2. Closing</span>
+            <span class="badge-count">35</span>
+          </li>
+          <li class="nav-item" data-cat="objection" onclick="selectCategory('objection', this)">
+            <span>3. Handling Objection</span>
+            <span class="badge-count">35</span>
+          </li>
+          <li class="nav-item" data-cat="broadcast" onclick="selectCategory('broadcast', this)">
+            <span>4. Broadcast Promo</span>
+            <span class="badge-count">30</span>
+          </li>
+          <li class="nav-item" data-cat="upselling" onclick="selectCategory('upselling', this)">
+            <span>5. Upselling</span>
+            <span class="badge-count">20</span>
+          </li>
+          <li class="nav-item" data-cat="crossselling" onclick="selectCategory('crossselling', this)">
+            <span>6. Cross Selling</span>
+            <span class="badge-count">20</span>
+          </li>
+          <li class="nav-item" data-cat="retensi" onclick="selectCategory('retensi', this)">
+            <span>7. Retensi Pelanggan</span>
+            <span class="badge-count">25</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="nav-group-title">BAGIAN 4: BONUS KOMPLAIN (25)</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-cat="komplain" onclick="selectCategory('komplain', this)">
+            <span>8. Handling Komplain & Refund</span>
+            <span class="badge-count">25</span>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      
+      <!-- Top Control Panel -->
+      <div class="top-controls">
+        <div class="search-row">
+          <div class="search-box">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            <input type="text" id="searchInput" placeholder="Cari template (misal: ongkir, diskon, komplain, garansi, flash sale)..." oninput="renderTemplates()">
+          </div>
+          <select class="filter-select" id="styleFilter" onchange="renderTemplates()">
+            <option value="all">Semua Gaya / Nada</option>
+            <option value="santai">Santai / Friendly</option>
+            <option value="to-the-point">To-the-point</option>
+            <option value="emoji">Dengan Emoji</option>
+            <option value="persuasif">Persuasif / Urgency</option>
+            <option value="soft">Soft Closing</option>
+          </select>
+        </div>
+
+        <!-- Live Customizer Inputs -->
+        <div>
+          <div class="customizer-title">
+            <span>⚙️ Pengisi Placeholder Otomatis (Ubah di sini, semua template berubah real-time!):</span>
+          </div>
+          <div class="customizer-grid" style="margin-top: 10px;">
+            <div class="input-field">
+              <label>[Nama Customer]</label>
+              <input type="text" id="ph-nama" value="Kak Budi" oninput="renderTemplates()">
+            </div>
+            <div class="input-field">
+              <label>[Nama Produk]</label>
+              <input type="text" id="ph-produk" value="Kemeja Premium" oninput="renderTemplates()">
+            </div>
+            <div class="input-field">
+              <label>[Harga]</label>
+              <input type="text" id="ph-harga" value="149.000" oninput="renderTemplates()">
+            </div>
+            <div class="input-field">
+              <label>[Nama Toko]</label>
+              <input type="text" id="ph-toko" value="FashionKu" oninput="renderTemplates()">
+            </div>
+            <div class="input-field">
+              <label>[Kota/Alamat]</label>
+              <input type="text" id="ph-kota" value="Jakarta" oninput="renderTemplates()">
+            </div>
+            <div class="input-field">
+              <label>[Bonus/Free Gift]</label>
+              <input type="text" id="ph-bonus" value="Dompet Pria" oninput="renderTemplates()">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Header -->
+      <div class="section-header">
+        <div>
+          <h1 class="section-title" id="sectionTitle">Semua Template Chat WA Penjualan</h1>
+          <p class="section-desc" id="sectionDesc">Menampilkan 230 template lengkap beserta Power Words & Penanganan Komplain.</p>
+        </div>
+      </div>
+
+      <!-- Power Words Section (Shown when Power Words Tab Active) -->
+      <div id="powerWordsSection" style="display: none;">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Template Container Grid -->
+      <div class="template-grid" id="templateContainer">
+        <!-- Rendered by JS -->
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">Template berhasil disalin ke clipboard!</div>
+
+  <!-- Guide Modal -->
+  <div id="guideModal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.75); backdrop-filter: blur(6px); z-index: 2000; align-items: center; justify-content: center; padding: 20px;">
+    <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; max-width: 800px; width: 100%; max-height: 85vh; overflow-y: auto; padding: 28px; box-shadow: var(--shadow); position: relative;">
+      <button onclick="closeGuideModal()" style="position: absolute; top: 20px; right: 20px; background: transparent; border: none; color: var(--text-muted); font-size: 1.5rem; cursor: pointer;">✕</button>
+      
+      <h2 style="font-size: 1.35rem; font-weight: 800; color: var(--badge-text); margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+        📖 BAGIAN 2: Panduan Praktis Kustomisasi Chat WA
+      </h2>
+
+      <div style="font-size: 0.9rem; line-height: 1.7; display: flex; flex-direction: column; gap: 20px;">
+        
+        <div style="background: var(--bg-main); padding: 16px; border-radius: 12px; border-left: 4px solid #ef4444;">
+          <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 6px; color: #f87171;">1. Kenapa Jangan Asal Copy-Paste 100%?</h3>
+          <p>Template adalah <strong>fondasi struktur penawaran</strong>. Jika dikirim 100% mentah tanpa penyesuaian:</p>
+          <ul style="margin-left: 20px; margin-top: 6px;">
+            <li><strong>Terlihat Seperti Bot/Spam:</strong> Pembeli langsung kehilangan rasa percaya (*trust*) jika merasa cuma dapat chat auto-reply massal.</li>
+            <li><strong>Memicu Chat Diabaikan:</strong> Pesan kaku tanpa rasa empati cenderung dibaca tanpa dibalas.</li>
+            <li><strong>Salah Karakter Brand:</strong> Gaya chat toko baju anak muda tentu beda dengan gaya toko herbal ibu-ibu.</li>
+          </ul>
+        </div>
+
+        <div style="background: var(--bg-main); padding: 16px; border-radius: 12px; border-left: 4px solid var(--accent);">
+          <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 8px; color: var(--badge-text);">2. 6 Tips Konkret Kustomisasi Chat WA Personal</h3>
+          <ol style="margin-left: 20px; display: flex; flex-direction: column; gap: 8px;">
+            <li><strong>Sesuaikan Sapaan (Greeting):</strong> Gunakan <em>Kak, Sis, Bro, Bunda, Mas, Gan</em> sesuai profil toko & pembeli Anda.</li>
+            <li><strong>Sisipkan Detail Spesifik:</strong> Sebutkan nama & barang spesifik: <em>"Halo Kak Budi, kemeja Oxford Navy L yang ditanyain kemarin..."</em>.</li>
+            <li><strong>Samakan Gaya Ketikan Customer (Mirroring):</strong> Jika customer singkat & <em>to-the-point</em>, jangan kirim cerita panjang.</li>
+            <li><strong>Ganti Tempat Kosong <code>[...]</code> Presisi:</strong> Isi warna, ukuran, promo, atau ongkir dengan angka pasti.</li>
+            <li><strong>Beri Alasan Logis (Reason Why):</strong> Misal beri urgency karena <em>"jadwal kurir mau berangkat jam 2 siang"</em>.</li>
+            <li><strong>Pecah Baris Chat:</strong> Kirim dalam 2-3 gelembung pesan pendek agar tidak lelah dibaca di HP.</li>
+          </ol>
+        </div>
+
+        <div style="background: var(--bg-main); padding: 16px; border-radius: 12px; border-left: 4px solid #f59e0b;">
+          <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 8px; color: #fbbf24;">3. Contoh Before vs After (Template #1)</h3>
+          
+          <div style="margin-bottom: 10px;">
+            <div style="font-size: 0.75rem; font-weight: 700; color: #ef4444; text-transform: uppercase;">🔴 BEFORE (Versi Mentah / Langsung Copy-Paste):</div>
+            <div style="background: rgba(239,68,68,0.1); padding: 10px 14px; border-radius: 8px; font-style: italic; margin-top: 4px;">
+              "Halo kak [Nama] 😊 kemarin sempat nanya [Nama Produk] yaa. Masih ada yang bingung atau pengen ditanyain lagi kak? Kebetulan stok [Nama Produk] di [Nama Toko] masih ready nih, mau aku simpanin dulu slotnya?"
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 0.75rem; font-weight: 700; color: #22c55e; text-transform: uppercase;">🟢 AFTER (Versi Dikustomisasi & Personal):</div>
+            <div style="background: rgba(34,197,94,0.1); padding: 10px 14px; border-radius: 8px; font-weight: 500; margin-top: 4px; white-space: pre-wrap;">
+"Halo Kak Budi! 👋
+Mau nginfoin kemeja Oxford Navy size L yang kemarin ditanyain masih ready 2 pcs nih di FashionKu.
+
+Kebetulan kurir kita mau jalan kirim paket jam 2 siang ini. Mau sekalian disisipin di kloter siang ini Kak Budi?"
+            </div>
+          </div>
+        </div>
+
+        <div style="background: var(--bg-main); padding: 16px; border-radius: 12px; border-left: 4px solid #3b82f6;">
+          <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 6px; color: #60a5fa;">4. Checklist Ringkas Sebelum Kirim Chat</h3>
+          <ul style="margin-left: 20px; display: flex; flex-direction: column; gap: 4px;">
+            <li>☑️ <strong>Sudah ganti SEMUA kurung siku <code>[...]</code>?</strong> (Nama, Produk, Harga, Ongkir).</li>
+            <li>☑️ <strong>Sudah sesuaikan sapaan?</strong> (Kak / Sis / Mas / Bunda sesuai profil).</li>
+            <li>☑️ <strong>Terdengar seperti manusia?</strong> (Bukan teks kaku surat kantor).</li>
+            <li>☑️ <strong>Panjang pesan pas?</strong> (Maksimal 2-4 baris chat).</li>
+            <li>☑️ <strong>Ada pertanyaan penutup (Call to Action)?</strong> (Pembeli tahu harus jawab apa).</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div style="margin-top: 24px; text-align: right;">
+        <button onclick="closeGuideModal()" style="background: var(--accent); color: #0f172a; border: none; padding: 10px 24px; border-radius: 8px; font-weight: 800; cursor: pointer;">Paham, Tutup Panduan</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Embedded Full Templates Dataset & Logic -->
+  <script>
+    // Complete 230 Templates Data Array
+    const rawTemplates = [
+      // 1. FOLLOW UP (40 Templates)
+      // Sub 1: Tanya-tanya belum beli (15)
+      { id: 1, category: "followup", sub: "Follow up setelah tanya-tanya", style: "santai", title: "Follow Up Tanya-tanya — Versi Santai & Friendly", text: "Halo kak [Nama] 😊 kemarin sempat nanya [Nama Produk] yaa. Masih ada yang bingung atau pengen ditanyain lagi kak? Kebetulan stok [Nama Produk] di [Nama Toko] masih ready nih, mau aku simpanin dulu slotnya?" },
+      { id: 2, category: "followup", sub: "Follow up setelah tanya-tanya", style: "to-the-point", title: "Follow Up Tanya-tanya — Versi To-the-point", text: "Halo kak [Nama], mau info aja nih untuk [Nama Produk] yang ditanyain kemarin masih ready. Bisa langsung dibantu proses kirim hari ini ya kak: [Link Produk]" },
+      { id: 3, category: "followup", sub: "Follow up setelah tanya-tanya", style: "emoji", title: "Follow Up Tanya-tanya — Versi Dengan Emoji", text: "Halo kaak [Nama] ✨ Apakabar nih? Kemarin kan mampir nanyain [Nama Produk] nih. Mau dikirim hari ini biar besok udah sampe di tempat kak [Nama]? 😉" },
+      { id: 4, category: "followup", sub: "Follow up setelah tanya-tanya", style: "soft", title: "Follow Up Tanya-tanya — Versi Soft Reminder", text: "Sore kak [Nama], sekadar info santai aja hehe. Untuk [Nama Produk] pesanan kemarin stoknya tinggal sedikit nih. Kalau masih berminat, bilang aja ya kak biar mimin bantu amanin 👍" },
+      { id: 5, category: "followup", sub: "Follow up setelah tanya-tanya", style: "persuasif", title: "Follow Up Tanya-tanya — Versi Konsultasi Solutif", text: "Halo kak [Nama], gimana soal [Alasan/Keluhan] yang kemarin kita bahas? Untuk [Nama Produk] emang pas banget bantu atasi itu kak. Mau dicoba order 1 dulu kak buat buktikan hasilnya?" },
+      { id: 6, category: "followup", sub: "Follow up setelah tanya-tanya", style: "santai", title: "Follow Up Tanya-tanya — Versi Tanya Kabar Kendala", text: "Hai kak [Nama]! Masih tertarik sama [Nama Produk] kemarin? Kalau ada kendala di pembayaran atau pengiriman, info aja ke [Nama Toko] ya kak, siapa tahu mimin ada solusinya 🙌" },
+      { id: 7, category: "followup", sub: "Follow up setelah tanya-tanya", style: "emoji", title: "Follow Up Tanya-tanya — Versi Free Ongkir", text: "Kak [Nama], mau ngingetin aja nih. Hari ini di [Nama Toko] lagi ada voucher free ongkir untuk pembelian [Nama Produk]. Sayang banget kalau dilewatin kak 🚚💨" },
+      { id: 8, category: "followup", sub: "Follow up setelah tanya-tanya", style: "to-the-point", title: "Follow Up Tanya-tanya — Versi Singkat Stok Nipis", text: "Pagi kak [Nama], [Nama Produk] yang kemarin tanya stoknya tinggal [Jumlah] pcs nih. Mau langsung diamankan kak?" },
+      { id: 9, category: "followup", sub: "Follow up setelah tanya-tanya", style: "santai", title: "Follow Up Tanya-tanya — Versi Humor Akrab", text: "Halo kak [Nama] 👋 [Nama Produk]-nya jangan didiemin aja kak, nanti diambil orang lain lho hehe 😜 Mau mimin kirim hari ini atau besok kak?" },
+      { id: 10, category: "followup", sub: "Follow up setelah tanya-tanya", style: "persuasif", title: "Follow Up Tanya-tanya — Versi Social Proof", text: "Halo kak [Nama], FYI aja hari ini [Nama Produk] udah terkirim [Jumlah] pcs ke [Kota]. Banyak yang ketagihan nih kak! Kak [Nama] mau sekalian dikirim hari ini?" },
+      { id: 11, category: "followup", sub: "Follow up setelah tanya-tanya", style: "santai", title: "Follow Up Tanya-tanya — Versi Ramah Reseller/Sis", text: "Hai sis [Nama]! Kapan hari sempat tanyain [Nama Produk] ya? Mau di-checkout sekarang atau ada yang mau disesuaikan lagi pesenannya sis?" },
+      { id: 12, category: "followup", sub: "Follow up setelah tanya-tanya", style: "soft", title: "Follow Up Tanya-tanya — Versi Penawaran Bantuan", text: "Halo kak [Nama], mimin [Nama Toko] mau cek nih, apakah masih butuh informasi tambahan mengenai [Nama Produk]? Boleh tanya-tanya dulu kok kak, santai aja 😊" },
+      { id: 13, category: "followup", sub: "Follow up setelah tanya-tanya", style: "to-the-point", title: "Follow Up Tanya-tanya — Versi Garansi Aman", text: "Kak [Nama], [Nama Produk] garansi [Jumlah] hari ya. Jadi gak usah ragu checkout. Mau pakai pembayaran COD atau Transfer kak?" },
+      { id: 14, category: "followup", sub: "Follow up setelah tanya-tanya", style: "soft", title: "Follow Up Tanya-tanya — Versi Cek Kebutuhan", text: "Hai kak [Nama]! Cuma mau memastikan aja kak [Nama Produk] kemarin masih dibutuhkan atau udah dapet barangnya kak? Kasih tau mimin ya biar mimin update slot stoknya 🙏" },
+      { id: 15, category: "followup", sub: "Follow up setelah tanya-tanya", style: "persuasif", title: "Follow Up Tanya-tanya — Versi Promo Mendadak", text: "Kabar baik kak [Nama]! Khusus pemesan [Nama Produk] hari ini dapet potongan Rp[Harga]. Promo cuma berlaku sampai pukul [Waktu] ya kak!" },
+
+      // Sub 2: Checkout Ditinggal (10)
+      { id: 16, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "santai", title: "Abandoned Checkout — Versi Perhatian", text: "Halo kak [Nama], aku liat kak [Nama] udah simpan [Nama Produk] di keranjang tapi belum diselesaikan nih 😊 Ada kendala saat transaksi atau mau mimin bantu kak?" },
+      { id: 17, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "to-the-point", title: "Abandoned Checkout — Versi To-the-point Link", text: "Hai kak [Nama]! Pesanan [Nama Produk] senilai Rp[Harga] tinggal 1 langkah lagi nih. Klik link ini buat lanjutin pembayaran ya: [Link Produk]" },
+      { id: 18, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "emoji", title: "Abandoned Checkout — Versi Ceria Urgency", text: "Waduh kak [Nama]! 😱 Keranjang belanjaan [Nama Produk]-nya kesepian tuh hehe. Yuk diselesaikan sekarang biar dapet pengiriman kloter pertama hari ini 🚀" },
+      { id: 19, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "soft", title: "Abandoned Checkout — Versi Subsidi Ongkir", text: "Halo kak [Nama], khusus untuk keranjang [Nama Produk] yang pending tadi, mimin kasih subsidi ongkir Rp[Harga] deh! Mau mimin proseskan skrg?" },
+      { id: 20, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "persuasif", title: "Abandoned Checkout — Versi Stok Keranjang Nipis", text: "Kak [Nama], barang di keranjang ([Nama Produk]) stoknya makin nipis nih kak. Mimin gak bisa jamin besok masih ada. Selesaikan checkout skrg yuk kak 🙏" },
+      { id: 21, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "santai", title: "Abandoned Checkout — Versi Alternatif Metode Bayar", text: "Hai kak [Nama]! Tadi ada kendala pas milih metode pembayaran [Nama Produk]? Di [Nama Toko] bisa COD, Transfer Bank, atau E-Wallet kok kak. Mau dibantu yang mana?" },
+      { id: 22, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "to-the-point", title: "Abandoned Checkout — Versi Batas Jam Pengiriman", text: "Pagi kak [Nama], pengiriman [Nama Toko] hari ini tutup jam [Waktu] ya. Kalau kak [Nama] bayar checkout [Nama Produk] sebelum jam [Waktu], langsung meluncur sore ini!" },
+      { id: 23, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "persuasif", title: "Abandoned Checkout — Versi Bonus Terbatas 1 Jam", text: "Kabar gembira kak [Nama]! Kalau selesaikan checkout [Nama Produk] dalam 1 jam ke depan, mimin sertakan gratis [Bonus] ya kak 🎉" },
+      { id: 24, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "santai", title: "Abandoned Checkout — Versi Remind Varian Pilihan", text: "Halo sis [Nama], barangkali ketiduran atau kelupaan checkout [Nama Produk]-nya? Hehe. Mumpung stok warna/varian [Varian] masih ada, yuk amankan sis 😊" },
+      { id: 25, category: "followup", sub: "Keranjang/Checkout ditinggal", style: "to-the-point", title: "Abandoned Checkout — Versi Hold Slot Terbatas", text: "Kak [Nama], pesanan [Nama Produk] mimin hold sampai jam [Waktu] ya. Lewat dari itu stok terpaksa dilepas ke pembeli lain kak. Link checkout: [Link Produk]" },
+
+      // Sub 3: Follow up Bertingkat (15)
+      { id: 26, category: "followup", sub: "Follow up bertingkat (Ke-1)", style: "santai", title: "Follow Up Ke-1 — Versi Santai Menyapa", text: "Halo kak [Nama] 👋 Mimin mau mastiin chat kemarin udah masuk/dibaca belum ya? Kalau ada pertanyaan soal [Nama Produk], feel free buat tanya aja ya kak 😊" },
+      { id: 27, category: "followup", sub: "Follow up bertingkat (Ke-1)", style: "to-the-point", title: "Follow Up Ke-1 — Versi To-the-point", text: "Hai kak [Nama], menyambung obrolan kemarin soal [Nama Produk]. Apakah mau lanjut order hari ini kak?" },
+      { id: 28, category: "followup", sub: "Follow up bertingkat (Ke-1)", style: "emoji", title: "Follow Up Ke-1 — Versi Dengan Emoji", text: "Ping kak [Nama] 📲 Hehe cuma mau sapa aja, barangkali chat kemarin ketumpuk. [Nama Produk] pilihan kak [Nama] masih ready lho 😉" },
+      { id: 29, category: "followup", sub: "Follow up bertingkat (Ke-1)", style: "persuasif", title: "Follow Up Ke-1 — Versi Konfirmasi Alamat", text: "Halo kak [Nama]! Semoga harinya menyenangkan ya ✨ Mimin mau tanyain kelanjutan [Nama Produk]-nya nih kak, mau dikirim ke alamat [Kota]?" },
+      { id: 30, category: "followup", sub: "Follow up bertingkat (Ke-1)", style: "soft", title: "Follow Up Ke-1 — Versi Soft Reminder", text: "Sore kak [Nama], barangkali lagi sibuk ya kemarin? Nanti kalau ada waktu selang, dibalas ya kak chat [Nama Toko]-nya 🙏" },
+      { id: 31, category: "followup", sub: "Follow up bertingkat (Ke-2)", style: "santai", title: "Follow Up Ke-2 — Versi Santai Tanpa Maksa", text: "Halo kak [Nama], apa kabar? Mimin dateng lagi nih hehe 😁 Cuma mau info kalau promo [Nama Produk] tinggal 2 hari lagi. Siapa tahu kak [Nama] masih butuh!" },
+      { id: 32, category: "followup", sub: "Follow up bertingkat (Ke-2)", style: "to-the-point", title: "Follow Up Ke-2 — Versi Tawaran Bonus", text: "Hai kak [Nama], khusus buat kak [Nama], mimin kasih bonus [Bonus] kalau jadi ambil [Nama Produk] hari ini. Gimana kak?" },
+      { id: 33, category: "followup", sub: "Follow up bertingkat (Ke-2)", style: "emoji", title: "Follow Up Ke-2 — Versi Urgency Halus", text: "Halo kak [Nama]! 🌟 Jangan sampai kehabisan ya kak, stok [Nama Produk] tersisa [Jumlah] unit aja nih. Mau mimin keep-in 1 slotnya?" },
+      { id: 34, category: "followup", sub: "Follow up bertingkat (Ke-2)", style: "soft", title: "Follow Up Ke-2 — Versi Empati Kesibukan", text: "Hai kak [Nama], mimin paham mungkin kak [Nama] lagi sibuk banget. Nggak apa-apa kak, nanti kalau udah siap checkout [Nama Produk] tinggal balas chat ini ya kak 😊" },
+      { id: 35, category: "followup", sub: "Follow up bertingkat (Ke-2)", style: "to-the-point", title: "Follow Up Ke-2 — Versi Batas Pembatalan Invoice", text: "Kak [Nama], invoice pesanan [Nama Produk] akan otomatis dibatalkan sistem jam [Waktu] nanti. Kalau mau diperpanjang infokan ke mimin ya kak." },
+      { id: 36, category: "followup", sub: "Follow up bertingkat (Ke-3)", style: "soft", title: "Follow Up Ke-3 (Terakhir) — Versi Soft Closing Penuh Penghargaan", text: "Halo kak [Nama], ini chat terakhir dari mimin yaa 😊 Kalau misal belum jadi order [Nama Produk] saat ini nggak apa-apa banget kok kak. Makasih udah mampir ke [Nama Toko], sukses selalu ya kak!" },
+      { id: 37, category: "followup", sub: "Follow up bertingkat (Ke-3)", style: "to-the-point", title: "Follow Up Ke-3 (Terakhir) — Versi Pamitan Sopan Slot Dialihkan", text: "Hai kak [Nama], karena belum ada balasan, slot hold [Nama Produk] mimin alihkan ke customer lain dulu ya kak. Kalau nanti butuh lagi, kapan pun bisa chat mimin kembali 👍" },
+      { id: 38, category: "followup", sub: "Follow up bertingkat (Ke-3)", style: "emoji", title: "Follow Up Ke-3 (Terakhir) — Versi Tutup Tiket Doa Baik", text: "Halo kak [Nama] 🙏 Mimin izin tutup tiket pertanyaan untuk [Nama Produk] ya kak. Terima kasih banyak atas waktunya, sehat & bahagia selalu kak [Nama] ✨" },
+      { id: 39, category: "followup", sub: "Follow up bertingkat (Ke-3)", style: "santai", title: "Follow Up Ke-3 (Terakhir) — Versi Pintu Terbuka", text: "Kak [Nama], tenang aja ya kalau belum ada budget/belum jodoh sama [Nama Produk] sekarang. Simpen nomor WA [Nama Toko] ini aja dulu, siapa tahu nanti butuh promo menarik lagi 🤗" },
+      { id: 40, category: "followup", sub: "Follow up bertingkat (Ke-3)", style: "santai", title: "Follow Up Ke-3 (Terakhir) — Versi Ringkas Santai", text: "Hai kak [Nama]! Mimin pamit dulu ya hehe. Kalau mau order [Nama Produk] di kemudian hari, kontak aja lagi ya kak. Have a great day!" },
+
+      // 2. CLOSING (35 Templates: 41 - 75)
+      { id: 41, category: "closing", sub: "Closing setelah detail produk", style: "santai", title: "Closing Detail Produk — Versi Format Order Direct", text: "Nah pas banget kak [Nama], spesifikasi [Nama Produk] emang cocok buat kak [Nama]. Mau dikirim hari ini? Kalau mau, boleh isi nama & alamat penerima ya kak 😊" },
+      { id: 42, category: "closing", sub: "Closing setelah detail produk", style: "to-the-point", title: "Closing Detail Produk — Versi Pilihan Metode Bayar", text: "Semua detail [Nama Produk] udah sesuai kan kak [Nama]? Harganya Rp[Harga]. Mau bayar via Bank Transfer (BCA/Mandiri/BRI) atau COD kak?" },
+      { id: 43, category: "closing", sub: "Closing setelah detail produk", style: "emoji", title: "Closing Detail Produk — Versi Best Seller Bungkus", text: "Siap kak! [Nama Produk] ini best seller banget di [Nama Toko] 🔥 Kak [Nama] mau ambil varian [Varian] yang mana nih? Biar langsung mimin bungkuskan 🎁" },
+      { id: 44, category: "closing", sub: "Closing setelah detail produk", style: "persuasif", title: "Closing Detail Produk — Versi Solutif Transaksi", text: "Berarti udah jelas ya kak manfaat [Nama Produk] untuk [Alasan/Keluhan]. Untuk pemesanan hari ini, mumpung masih ready stok, lanjut ke alamat mana kak?" },
+      { id: 45, category: "closing", sub: "Closing setelah detail produk", style: "persuasif", title: "Closing Detail Produk — Versi Paket Hemat 2 Pcs", text: "Gimana kak [Nama]? Mau ambil paket isi 1 pcs Rp[Harga] atau ambil paket hemat 2 pcs cuma Rp[Harga]? Lebih murah yang paket 2 pcs lho kak 😉" },
+      { id: 46, category: "closing", sub: "Closing setelah detail produk", style: "santai", title: "Closing Detail Produk — Versi Jaminan Garansi", text: "Tenang kak, [Nama Produk] kami 100% original & ada garansi [Jumlah] hari. Jadi pasti aman. Boleh dikirimkan nama penerima, alamat lengkap & no HP kak?" },
+      { id: 47, category: "closing", sub: "Closing setelah detail produk", style: "to-the-point", title: "Closing Detail Produk — Versi Link Payment Direct", text: "Semua fitur [Nama Produk] sudah mimin jelaskan ya kak [Nama]. Tinggal klik link pembayaran ini untuk penyelesaian: [Link Produk]" },
+      { id: 48, category: "closing", sub: "Closing setelah detail produk", style: "santai", title: "Closing Detail Produk — Versi Opsi Ekspedisi", text: "Okey kak [Nama], produknya udah siap dikirim dari gudang [Kota]. Kak [Nama] mau kirim via JNT, JNE, atau Shopee Express kak?" },
+      { id: 49, category: "closing", sub: "Closing setelah detail produk", style: "to-the-point", title: "Closing Detail Produk — Versi Totalan Instan", text: "Total belanja [Nama Produk] + ongkir ke [Kota] jadi Rp[Harga] ya kak. Mau ditransfer sekarang kak biar dikirim kloter siang ini?" },
+      { id: 50, category: "closing", sub: "Closing setelah detail produk", style: "santai", title: "Closing Detail Produk — Versi Kemudahan COD", text: "Bisa banget bayar di tempat (COD) kok kak [Nama]! Pas barang nyampe baru bayar ke kurir. Mau kirim ke alamat rumah atau kantor kak?" },
+      { id: 51, category: "closing", sub: "Closing bonus & diskon", style: "santai", title: "Closing Diskon — Versi Potongan Langsung", text: "Khusus buat kak [Nama] yang tanya hari ini, mimin kasih diskon khusus Rp[Harga] deh! Jadi cukup bayar Rp[Harga] aja kak. Mau di-deal-kan sekarang?" },
+      { id: 52, category: "closing", sub: "Closing bonus & diskon", style: "to-the-point", title: "Closing Bonus — Versi Free Gift Berbatas Jam", text: "Kalau checkout [Nama Produk] sekarang, mimin kasih gratis [Bonus] seharga Rp[Harga]! Penawaran ini cuma berlaku sampai jam [Waktu] ya kak." },
+      { id: 53, category: "closing", sub: "Closing bonus & diskon", style: "emoji", title: "Closing Diskon — Versi Kode Voucher Rahasia", text: "Surprise kak [Nama]! 🎉 Ada voucher diskon tambahan Rp[Harga] khusus transaksi [Nama Produk] sekarang. Masukin kode [Kode Promo] atau klaim via mimin ya!" },
+      { id: 54, category: "closing", sub: "Closing bonus & diskon", style: "persuasif", title: "Closing Diskon — Versi Gratis Ongkir Spesial", text: "Kak [Nama], berhubung kak [Nama] udah antusias banget, mimin kasih GRATIS ONGKIR khusus ke [Kota] deh! Mau ambil kesempatan ini kak?" },
+      { id: 55, category: "closing", sub: "Closing bonus & diskon", style: "persuasif", title: "Closing Diskon — Versi Bonus Beli 2", text: "Beli 1 [Nama Produk] harga Rp[Harga]. Tapi kalau beli 2 pcs langsung dapet bonus [Bonus] + diskon Rp[Harga]. Mending ambil paket beli 2 kan kak? 😉" },
+      { id: 56, category: "closing", sub: "Closing bonus & diskon", style: "santai", title: "Closing Diskon — Versi Cashback Instan", text: "Khusus transaksi [Nama Produk] jam ini dapet cashback Rp[Harga] yang bisa dipakai untuk order berikutnya. Gimana kak, siap checkout?" },
+      { id: 57, category: "closing", sub: "Closing bonus & diskon", style: "emoji", title: "Closing Bonus — Versi Aksesoris Eksklusif", text: "Kabar baik kak! Setiap pembelian [Nama Produk] hari ini dapet bonus pouch/aksesoris [Bonus] eksklusif dari [Nama Toko]. Yuk transaksi skrg kak!" },
+      { id: 58, category: "closing", sub: "Closing bonus & diskon", style: "santai", title: "Closing Diskon — Versi Pembeli Baru", text: "Sebagai pelanggan baru di [Nama Toko], kak [Nama] berhak klaim diskon 10% untuk [Nama Produk]. Mau dipakai voucher-nya sekarang kak?" },
+      { id: 59, category: "closing", sub: "Closing bonus & diskon", style: "to-the-point", title: "Closing Diskon — Versi Promo Kilat Bisik-bisik", text: "Psstt.. Mimin bisikin promo rahasia ya kak 🤫 Kalau bayar [Nama Produk] sebelum jam [Waktu], harganya dicut jadi Rp[Harga] aja. Deal kak?" },
+      { id: 60, category: "closing", sub: "Closing bonus & diskon", style: "persuasif", title: "Closing Bonus — Versi Bales Deal Bonus Meluncur", text: "Biar kak [Nama] makin mantap, mimin tambahin bonus [Bonus] tanpa ada tambahan biaya sama sekali. Tinggal bales 'DEAL' ya kak!" },
+      { id: 61, category: "closing", sub: "Closing urgency & limited stock", style: "santai", title: "Closing Urgency — Versi Stok Sisa Sedikit", text: "Kak [Nama], sekadar info nih stok [Nama Produk] warna/varian [Varian] sisa [Jumlah] pcs lagi. Takutnya kehabisan, mau di-keep atas nama kak [Nama]?" },
+      { id: 62, category: "closing", sub: "Closing urgency & limited stock", style: "to-the-point", title: "Closing Urgency — Versi Batas Jam Promo Malam Ini", text: "Promo harga Rp[Harga] untuk [Nama Produk] bakal berakhir di jam [Waktu] malam ini kak. Setelah itu harga balik normal ke Rp[Harga]. Selesaikan pembayaran skrg ya!" },
+      { id: 63, category: "closing", sub: "Closing urgency & limited stock", style: "emoji", title: "Closing Urgency — Versi Kuota Bonus Menipis", text: "ALERT kak [Nama]! ⚠️ Kuota gratis [Bonus] tinggal untuk [Jumlah] pemesan lagi hari ini. Jangan sampe gigit jari ya kak 😭 Checkout skrg yuk: [Link Produk]" },
+      { id: 64, category: "closing", sub: "Closing urgency & limited stock", style: "persuasif", title: "Closing Urgency — Versi Rebutan Customer Lain", text: "Baru aja ada 3 customer yang checkout [Nama Produk] kak. Stok di gudang makin kritis nih. Kak [Nama] mau mimin prioritasin slotnya?" },
+      { id: 65, category: "closing", sub: "Closing urgency & limited stock", style: "to-the-point", title: "Closing Urgency — Versi Cut-Off Pengiriman", text: "Batas kirim hari ini tinggal 30 menit lagi kak! Kalau transfer [Nama Produk] sebelum jam [Waktu], paket langsung dikirim hari ini juga 🚀" },
+      { id: 66, category: "closing", sub: "Closing urgency & limited stock", style: "santai", title: "Closing Urgency — Versi Edisi Terbatas Restock Lama", text: "[Nama Produk] ini edisi terbatas kak dan belum tentu restock lagi bulan depan. Mumpung ready, amankan sekarang sebelum nyesel kak 😊" },
+      { id: 67, category: "closing", sub: "Closing urgency & limited stock", style: "to-the-point", title: "Closing Urgency — Versi Countdown Diskon", text: "Diskon Rp[Harga] untuk [Nama Produk] tinggal [Jumlah] jam lagi kak. Klik pembayaran sekarang biar harganya gak naik: [Link Produk]" },
+      { id: 68, category: "closing", sub: "Closing urgency & limited stock", style: "persuasif", title: "Closing Urgency — Versi Harga Kenaikan Bulan Depan", text: "Bulan depan bahan baku naik jadi harga [Nama Produk] terpaksa ikut naik kak. Mumpung masih harga lama Rp[Harga], borong sekarang yuk kak!" },
+      { id: 69, category: "closing", sub: "Closing urgency & limited stock", style: "emoji", title: "Closing Urgency — Versi Slot Bonus Sisa 2", text: "Slot bonus [Bonus] sisa 2 orang lagi kak [Nama]! Siapa cepat dia dapet yaa. Mau mimin masukkan nama kak [Nama] ke list pembeli bonus?" },
+      { id: 70, category: "closing", sub: "Closing urgency & limited stock", style: "to-the-point", title: "Closing Urgency — Versi Sistem Hold 15 Menit", text: "Stok [Nama Produk] sangat terbatas ([Jumlah] pcs). Kami hanya menahan stok selama 15 menit setelah invoice diterbitkan. Mau diterbitkan invoice sekarang kak?" },
+      { id: 71, category: "closing", sub: "Closing customer silent reader", style: "santai", title: "Silent Reader — Versi Ramah Story View", text: "Hai kak [Nama], sering liat status/story [Nama Toko] kan? hehe 😁 Kebetulan [Nama Produk] favorit kak [Nama] lagi ready nih. Mau dicoba order 1 dulu?" },
+      { id: 72, category: "closing", sub: "Closing customer silent reader", style: "to-the-point", title: "Silent Reader — Versi Apresiasi Reader Setia", text: "Halo kak [Nama]! Sebagai bentuk terima kasih udah setia nyimak katalog [Nama Toko], mimin kasih diskon khusus Rp[Harga] untuk [Nama Produk]. Ambil sekarang kak?" },
+      { id: 73, category: "closing", sub: "Closing customer silent reader", style: "emoji", title: "Silent Reader — Versi Nyobain Produk Langsung", text: "Halo kaak [Nama] ✨ Kapan nih mau nyobain langsung [Nama Produk]? Banyak yang udah ketagihan lho! Khusus hari ini ada penawaran spesial buat kak [Nama] 😉" },
+      { id: 74, category: "closing", sub: "Closing customer silent reader", style: "persuasif", title: "Silent Reader — Versi Pegang Fisik Produk", text: "Hai kak [Nama], daripada cuma ngeliatin foto [Nama Produk]-nya terus hehe, mending langsung pegang fisik produknya kak! Mimin kasih garansi retur kalau gak cocok 👍" },
+      { id: 75, category: "closing", sub: "Closing customer silent reader", style: "soft", title: "Silent Reader — Versi Tanya Diskusi Santai", text: "Sore kak [Nama], kalau ada yang bikin ragu soal [Nama Produk], ngobrol sama mimin yuk kak. Mana tahu ada penawaran yang pas buat kak [Nama] 😊" },
+
+      // 3. HANDLING OBJECTION (35 Templates: 76 - 110)
+      { id: 76, category: "objection", sub: "Objection: Harga mahal", style: "persuasif", title: "Objection Harga — Versi Value Kualitas Awet", text: "Paham banget kak [Nama] 😊 Sekilas memang harganya Rp[Harga], tapi [Nama Produk] ini pakai bahan/fitur premium yang tahan sampai [Jumlah] tahun. Jauh lebih hemat daripada beli yang murah tapi cepat rusak kak!" },
+      { id: 77, category: "objection", sub: "Objection: Harga mahal", style: "santai", title: "Objection Harga — Versi Breakdown Biaya Harian", text: "Kalau dihitung-hitung, harga Rp[Harga] untuk [Nama Produk] itu cuma setara Rp[Harga] per hari lho kak! Lebih murah dari harga secangkir kopi, tapi hasilnya bisa dirasakan tiap hari 👍" },
+      { id: 78, category: "objection", sub: "Objection: Harga mahal", style: "persuasif", title: "Objection Harga — Versi Garansi Tukar Baru", text: "Iya kak [Nama], harganya sebanding banget sama kualitasnya. Apalagi di [Nama Toko] ada garansi [Jumlah] hari. Kalau ada apa-apa bisa tukar baru, jadi investasi kak [Nama] aman 100%!" },
+      { id: 79, category: "objection", sub: "Objection: Harga mahal", style: "persuasif", title: "Objection Harga — Versi Biaya Atasi Masalah", text: "Mending bayar Rp[Harga] buat [Nama Produk] yang terbukti atasi [Alasan/Keluhan] kak, daripada coba-coba yang murah tapi masalahnya gak selesai-selesai hehe." },
+      { id: 80, category: "objection", sub: "Objection: Harga mahal", style: "to-the-point", title: "Objection Harga — Versi Paket Hemat Opsi Cicilan", text: "Tenang kak [Nama], kalau terasa berat sekaligus, [Nama Toko] ada opsi paket hemat / cicilan 2x lho. Mau mimin jelasin ketentuannya?" },
+      { id: 81, category: "objection", sub: "Objection: Harga mahal", style: "emoji", title: "Objection Harga — Versi Kompensasi Bonus", text: "Biar makin worth it buat kak [Nama], kalau order [Nama Produk] harga Rp[Harga] hari ini, mimin sertakan gratis [Bonus] seharga Rp[Harga]! Gimana kak?" },
+      { id: 82, category: "objection", sub: "Objection: Harga mahal", style: "soft", title: "Objection Harga — Versi Empati Keunggulan Bahan", text: "Wajar kok kak kalau merasa harganya lumayan. Tapi percaya deh kak, [Nama Produk] ini dibuat dengan bahan premium yang gak dipunya produk lain. Dijamin gak nyesel!" },
+      { id: 83, category: "objection", sub: "Objection: Harga mahal", style: "to-the-point", title: "Objection Harga — Versi Opsi Varian Lebih Terjangkau", text: "Kalau budget kak [Nama] belum sampai ke [Nama Produk], kami ada varian ekonomis yang harganya cuma Rp[Harga] kak. Mau coba liat dulu varian yang ini?" },
+      { id: 84, category: "objection", sub: "Objection: Harga mahal", style: "santai", title: "Objection Harga — Versi Testimoni Awal Ragui", text: "Banyak pembeli sebelumnya juga mikir mahal di awal kak, tapi pas [Nama Produk]-nya nyampe, mereka bilang 'worth it banget!'. Boleh coba 1 dulu kak buat buktikan 😉" },
+      { id: 85, category: "objection", sub: "Objection: Harga mahal", style: "persuasif", title: "Objection Harga — Versi Nego Potongan Ongkir", text: "Oke kak [Nama], biar harganya masuk budget, khusus transaksi sekarang mimin potongin ongkir Rp[Harga] ya. Jadi lebih hemat kan kak?" },
+      { id: 86, category: "objection", sub: "Objection: Mikir-mikir dulu", style: "santai", title: "Objection Mikir — Versi Berikan Ruang Pertanyaan", text: "Boleh banget kak [Nama], silakan dipikir-pikir dulu ya 😊 Btw ada bagian dari [Nama Produk] yang masih bikin kak [Nama] ragu atau bingung kak?" },
+      { id: 87, category: "objection", sub: "Objection: Mikir-mikir dulu", style: "to-the-point", title: "Objection Mikir — Versi Pengingat Batas Promo", text: "Siap kak! Tapi sekadar info aja, promo diskon Rp[Harga] untuk [Nama Produk] ini berbatas waktu sampai jam [Waktu] ya kak. Nanti kalau promo habis sayang banget hehe." },
+      { id: 88, category: "objection", sub: "Objection: Mikir-mikir dulu", style: "emoji", title: "Objection Mikir — Versi Tanya Titik Pertimbangan", text: "Oke siap kak [Nama] 👌 Kira-kira pertimbangannya di budget atau di varian warna/ukuran kak? Mana tahu mimin bisa bantu kasih alternatif terbaik 😉" },
+      { id: 89, category: "objection", sub: "Objection: Mikir-mikir dulu", style: "soft", title: "Objection Mikir — Versi Konsultasi Gratis 24 Jam", text: "Silakan kak [Nama]. Kalau ada pertanyaan teknis soal [Nama Produk], WA mimin kapan aja ya. Mimin siap bantu konsultasi gratis!" },
+      { id: 90, category: "objection", sub: "Objection: Mikir-mikir dulu", style: "to-the-point", title: "Objection Mikir — Versi Hold Stok Sampai Besok", text: "Baik kak [Nama], slot [Nama Produk] mimin bantu hold sampai besok jam [Waktu] ya kak. Biar gak kedahuluan pembeli lain yang nunggu." },
+      { id: 91, category: "objection", sub: "Objection: Mikir-mikir dulu", style: "santai", title: "Objection Mikir — Versi Kirim Ulasan Pembeli", text: "Siap kak [Nama]. Sambil mikir-mikir, kak [Nama] bisa cek ulasan kepuasan pembeli [Nama Produk] di link ini ya: [Link Produk]. Biar makin mantap!" },
+      { id: 92, category: "objection", sub: "Objection: Mikir-mikir dulu", style: "persuasif", title: "Objection Mikir — Versi Bonus Keputusan Cepat", text: "Siap kak! Kalau kak [Nama] bisa putusin sebelum jam [Waktu], mimin tambahin bonus [Bonus] khusus buat kak [Nama] lho 😊" },
+      { id: 93, category: "objection", sub: "Objection: Mikir-mikir dulu", style: "to-the-point", title: "Objection Mikir — Versi Siap Proses Cepat", text: "Sip kak [Nama], kabar-kabari mimin ya kalau udah selesai mikir-mikirnya. Mimin siap bantu proses cepat pengirimannya!" },
+      { id: 94, category: "objection", sub: "Objection: Kemahalan dibanding kompetitor", style: "persuasif", title: "Kompetitor Murah — Versi Penjelas Presisi & Bahan", text: "Betul kak [Nama], di toko sebelah memang ada yang lebih murah. Tapi [Nama Produk] kita original 100% pakai bahan berkualitas dan jahitan/finishing jauh lebih presisi. Ada harga ada kualitas kak 😊" },
+      { id: 95, category: "objection", sub: "Objection: Kemahalan dibanding kompetitor", style: "santai", title: "Kompetitor Murah — Versi Bedanya Garansi & CS", text: "Di toko lain mungkin lebih murah beberapa ribu kak, tapi di [Nama Toko] kak [Nama] dapet garansi ganti baru + customer care cepat. Jadi kalau barang bermasalah gak pusing komplainnya 👍" },
+      { id: 96, category: "objection", sub: "Objection: Kemahalan dibanding kompetitor", style: "persuasif", title: "Kompetitor Murah — Versi Edukasi Risiko KW", text: "Hati-hati ya kak [Nama], di pasaran banyak beredar [Nama Produk] tiruan/KW dengan harga miring. Di toko kita dijamin 100% ORI dan bersegel resmi." },
+      { id: 97, category: "objection", sub: "Objection: Kemahalan dibanding kompetitor", style: "to-the-point", title: "Kompetitor Murah — Versi Match Harga + Bonus", text: "Toko sebelah jual harga berapa kak [Nama]? Kalau bedanya gak jauh, mimin samain deh harganya plus dapet bonus [Bonus] dari [Nama Toko]!" },
+      { id: 98, category: "objection", sub: "Objection: Kemahalan dibanding kompetitor", style: "emoji", title: "Kompetitor Murah — Versi Value Free Gift & Packing", text: "Beda harga dikit tapi di [Nama Toko] kak [Nama] udah dapet free [Bonus] seharga Rp[Harga] + gratis bubble wrap tebal kak. Jauh lebih untung!" },
+      { id: 99, category: "objection", sub: "Objection: Kemahalan dibanding kompetitor", style: "soft", title: "Kompetitor Murah — Versi Real Pict Sesuai Deskripsi", text: "Wajar kok kak membandingkan. Tapi banyak pembeli kita yang kapok beli di tempat murah karena barang beda. Di sini dijamin barang sesuai foto & deskripsi 100%!" },
+      { id: 100, category: "objection", sub: "Objection: Kemahalan dibanding kompetitor", style: "to-the-point", title: "Kompetitor Murah — Versi Garansi Rusak Di Jalan", text: "Beli di [Nama Toko] garansi barang sampai dengan selamat kak. Rusak di jalan langsung kita ganti tanpa biaya tambahan. Mau amankan pesanan sekarang?" },
+      { id: 101, category: "objection", sub: "Objection: Ragu kualitas / keaslian", style: "santai", title: "Ragu Kualitas — Versi Kirim Video Real Pict", text: "Wajar banget kak [Nama] ragu kalau beli online. Ini mimin kirimkan video & foto real pict [Nama Produk] tanpa filter ya kak [Link Produk]. Bisa diliat detailnya mentereng!" },
+      { id: 102, category: "objection", sub: "Objection: Ragu kualitas / keaslian", style: "persuasif", title: "Ragu Kualitas — Versi Garansi Uang Kembali 100%", text: "Untuk membuktikan kualitas [Nama Produk], [Nama Toko] kasih garansi uang kembali 100% jika barang tak sesuai deskripsi atau cacat. Bebas risiko kan kak? 😉" },
+      { id: 103, category: "objection", sub: "Objection: Ragu kualitas / keaslian", style: "to-the-point", title: "Ragu Kualitas — Versi Izin & Sertifikat Resmi", text: "Tenang kak [Nama], [Nama Produk] kami sudah terdaftar sertifikasi resmi dan lulus uji kualitas. Jadi terjamin aman dan original!" },
+      { id: 104, category: "objection", sub: "Objection: Ragu kualitas / keaslian", style: "emoji", title: "Ragu Kualitas — Versi Bintang 5 Pembeli", text: "Sudah lebih dari 1.000+ orang beli [Nama Produk] di [Nama Toko] dan kasih bintang 5 kak. Kak [Nama] bisa cek ulasan jujur pembeli di sini: [Link Produk]" },
+      { id: 105, category: "objection", sub: "Objection: Ragu kualitas / keaslian", style: "santai", title: "Ragu Kualitas — Versi Bayar COD Cek Barang", text: "Biar gak ada rasa ragu, kak [Nama] pilih metode bayar COD aja. Pas kurir dateng bisa dicek dulu kemasannya baru dibayar kak 👍" },
+      { id: 106, category: "objection", sub: "Objection: Ongkir kemahalan", style: "persuasif", title: "Ongkir Mahal — Versi Subsidi Ongkir Toko", text: "Jangan batal order gara-gara ongkir kak [Nama]! Mimin kasih subsidi ongkir Rp[Harga] deh khusus transaksi hari ini. Jadi ongkirnya jauh lebih ringan!" },
+      { id: 107, category: "objection", sub: "Objection: Ongkir kemahalan", style: "to-the-point", title: "Ongkir Mahal — Versi Ganti Ekspedisi Kargo", text: "Ongkir reguler memang lumayan kak. Gimana kalau mimin ganti ke pengiriman Kargo / Hemat? Ongkir [Nama Produk] ke [Kota] cuma jadi Rp[Harga] lho!" },
+      { id: 108, category: "objection", sub: "Objection: Ongkir kemahalan", style: "santai", title: "Ongkir Mahal — Versi Beli 2 Gratis Ongkir", text: "Kalau beli 1 pcs ongkirnya emang berasa kak. Tapi kalau beli 2 pcs [Nama Produk], otomatis dapet GRATIS ONGKIR dari [Nama Toko]! Mending ajak temen beli barengan 😉" },
+      { id: 109, category: "objection", sub: "Objection: Ongkir kemahalan", style: "to-the-point", title: "Ongkir Mahal — Versi Link Voucher Marketplace", text: "Kak [Nama] bisa transaksi lewat toko kita di marketplace juga lho biar dapet voucher free ongkir 100%. Ini link tokonya: [Link Produk]" },
+      { id: 110, category: "objection", sub: "Objection: Ongkir kemahalan", style: "persuasif", title: "Ongkir Mahal — Versi Potong Harga Produk", text: "Biar imbang sama biaya ongkir ke [Kota], mimin potong harga [Nama Produk]-nya sebesar Rp[Harga] ya kak. Deal dikirim hari ini?" },
+
+      // 4. BROADCAST (30 Templates: 111 - 140)
+      { id: 111, category: "broadcast", sub: "Broadcast promo / flash sale", style: "emoji", title: "Broadcast Promo — Versi Super Heboh Flash Sale", text: "🔥 FLASH SALE SURPRISE! 🔥\nHalo kak [Nama], khusus HARI INI [Nama Produk] diskon gede-gedean di [Nama Toko]!\nStok terbatas cuma sedikit pcs. Serbu sebelum kehabisan kak 🏃💨: [Link Produk]" },
+      { id: 112, category: "broadcast", sub: "Broadcast promo / flash sale", style: "to-the-point", title: "Broadcast Promo — Versi To-the-point Promo Kilat", text: "PROMO KILAT! [Nama Produk] cuma Rp[Harga] (Harga normal lebih tinggi). Khusus pemesan hari ini free [Bonus]. Klik link buat order: [Link Produk]" },
+      { id: 113, category: "broadcast", sub: "Broadcast promo / flash sale", style: "santai", title: "Broadcast Promo — Versi Cerita Voucher Gajian", text: "Halo kak [Nama]! Udah gajian atau masih nunggu tanggal muda nih? Hehe 😁 Mimin mau bagi-bagi voucher potongan Rp[Harga] buat [Nama Produk]. Klaim di sini ya kak: [Link Produk]" },
+      { id: 114, category: "broadcast", sub: "Broadcast promo / flash sale", style: "emoji", title: "Broadcast Promo — Versi Buy 1 Get 1 Free", text: "🎁 PROMO HEBOH BUY 1 GET 1 FREE! 🎁\nBeli [Nama Produk] hari ini langsung dapet gratis [Bonus] tanpa diundi! Cuma sampai jam [Waktu] malam ini kak!" },
+      { id: 115, category: "broadcast", sub: "Broadcast promo / flash sale", style: "persuasif", title: "Broadcast Promo — Versi Payday Reward", text: "💰 PAYDAY SALE IS HERE! 💰\nWaktunya self-reward kak [Nama]! Dapatkan potongan diskon khusus untuk semua varian [Nama Produk] di [Nama Toko]. Siap bungkus kak?" },
+      { id: 116, category: "broadcast", sub: "Broadcast promo / flash sale", style: "santai", title: "Broadcast Promo — Versi Kode Voucher Rahasia WA", text: "Halo kak [Nama] 👋 Ini voucher rahasia khusus kontak WA [Nama Toko]: ketik [Kode Promo] untuk dapet cashback Rp[Harga] checkout [Nama Produk]!" },
+      { id: 117, category: "broadcast", sub: "Broadcast promo / flash sale", style: "emoji", title: "Broadcast Promo — Versi Cuci Gudang Clearance", text: "🚨 PROMO CUCI GUDANG! 🚨\n[Nama Produk] diskon parah dari harga normal jadi CUMA Rp[Harga]. Habisin stok gudang minggu ini kak!" },
+      { id: 118, category: "broadcast", sub: "Broadcast promo / flash sale", style: "to-the-point", title: "Broadcast Promo — Versi Promo 3 Jam Saja", text: "⏳ PROMO 3 JAM SAJA! (Jam [Waktu] Saja)\nCheckout [Nama Produk] sekarang dan dapatkan free ongkir se-Indonesia + bonus [Bonus]! Klik: [Link Produk]" },
+      { id: 119, category: "broadcast", sub: "Broadcast promo / flash sale", style: "santai", title: "Broadcast Promo — Versi Eksklusif Member WA", text: "Halo member kesayangan [Nama Toko]! ✨ Khusus pembeli via WA hari ini ada diskon ekstra Rp[Harga] untuk [Nama Produk]. Mau diamanin varian apa kak?" },
+      { id: 120, category: "broadcast", sub: "Broadcast promo / flash sale", style: "to-the-point", title: "Broadcast Promo — Versi Singkat Hari Ini Saja", text: "Diskon Rp[Harga] [Nama Produk] berlaku HARI INI SAJA. Stok sisa sedikit. Order via WA sekarang juga!" },
+      { id: 121, category: "broadcast", sub: "Broadcast produk baru", style: "emoji", title: "Broadcast Produk Baru — Versi New Arrival Launching", text: "✨ NEW ARRIVAL IS HERE! ✨\nHalo kak [Nama], yang ditunggu-tunggu akhirnya rilis juga! Kenalin [Nama Produk] varian terbaru dari [Nama Toko] 😍 Dapatkan harga launching khusus hari ini: [Link Produk]" },
+      { id: 122, category: "broadcast", sub: "Broadcast produk baru", style: "to-the-point", title: "Broadcast Produk Baru — Versi To-the-point Fitur", text: "BARU! [Nama Produk] kini hadir dengan keunggulan inovasi terbaru. Bikin masalah teratasi lebih cepat. Cek katalognya di sini kak: [Link Produk]" },
+      { id: 123, category: "broadcast", sub: "Broadcast produk baru", style: "santai", title: "Broadcast Produk Baru — Versi Nyobain Orang Pertama", text: "Hai kak [Nama]! Mau jadi orang pertama yang cobain [Nama Produk]? Mimin kasih diskon launching khusus kontak WA pertama yang order hari ini 😉" },
+      { id: 124, category: "broadcast", sub: "Broadcast produk baru", style: "emoji", title: "Broadcast Produk Baru — Versi Limited Drop Alert", text: "🚨 LIMITED DROP ALERT! 🚨\n[Nama Produk] versi terbaru cuma diproduksi sedikit pcs aja kak! Jangan sampai gigit jari gak dapet slotnya. Amankan sekarang!" },
+      { id: 125, category: "broadcast", sub: "Broadcast produk baru", style: "persuasif", title: "Broadcast Produk Baru — Versi Inovasi Terbaru", text: "Inovasi terbaru dari [Nama Toko]! [Nama Produk] hadir lebih simpel, elegan, dan efektif. Khusus hari ini ada bonus [Bonus] tiap pembelian. Checkout sekarang!" },
+      { id: 126, category: "broadcast", sub: "Broadcast produk baru", style: "santai", title: "Broadcast Produk Baru — Versi Jawaban Penasaran", text: "Akhirnya yang kemarin ditanyain kak [Nama] restock & launching versi terbarunya! [Nama Produk] rilis hari ini dengan harga istimewa Rp[Harga]. Cek yuk kak!" },
+      { id: 127, category: "broadcast", sub: "Broadcast produk baru", style: "to-the-point", title: "Broadcast Produk Baru — Versi 50 Pembeli Pertama", text: "NEW LAUNCHING: [Nama Produk]! Dapatkan potongan langsung Rp[Harga] + Free Gift [Bonus] untuk 50 pembeli pertama. Klik link: [Link Produk]" },
+      { id: 128, category: "broadcast", sub: "Broadcast produk baru", style: "soft", title: "Broadcast Produk Baru — Versi Minta Masukan Kategori", text: "Halo kak [Nama]! [Nama Toko] baru rilis [Nama Produk] nih. Mau minta pendapat kak [Nama] dong! Cek detailnya di sini ya kak: [Link Produk]" },
+      { id: 129, category: "broadcast", sub: "Broadcast momen spesial", style: "emoji", title: "Momen Spesial — Versi Tanggal Cantik (11.11 / 12.12)", text: "🎉 PROMO TANGGAL CANTIK KILAT! 🎉\nHalo kak [Nama], obral harga miring untuk [Nama Produk] cuma Rp[Harga]! Serbu diskonnya sebelum jam [Waktu] malam ini!" },
+      { id: 130, category: "broadcast", sub: "Broadcast momen spesial", style: "santai", title: "Momen Spesial — Versi Weekend Deals", text: "🥳 HAPPY WEEKEND DEALS! 🥳\nBikin akhir pekan kak [Nama] makin gembira dengan belanja [Nama Produk] di [Nama Toko]. Ada promo gratis ongkir + diskon Rp[Harga] lho!" },
+      { id: 131, category: "broadcast", sub: "Broadcast momen spesial", style: "persuasif", title: "Momen Spesial — Versi Payday Memanjakan Diri", text: "💸 GAJIAN TIBA, WAKTU MEMANJAKAN DIRI! 💸\nSaatnya checkout wishlist [Nama Produk] kak [Nama]! Mimin kasih potongan langsung Rp[Harga] khusus transaksi hari ini." },
+      { id: 132, category: "broadcast", sub: "Broadcast momen spesial", style: "emoji", title: "Momen Spesial — Versi Hari Raya / Liburan", text: "✨ SPESIAL HARI RAYA / LIBURAN! ✨\nSambut momen spesial dengan [Nama Produk] dari [Nama Toko]. Dapatkan paket hadiah & bonus [Bonus] khusus pemesanan minggu ini!" },
+      { id: 133, category: "broadcast", sub: "Broadcast momen spesial", style: "santai", title: "Momen Spesial — Versi End of Month Promo", text: "🌙 PROMO AKHIR BULAN TETAP HEMAT! 🌙\nDompet aman belanja nyaman! [Nama Produk] diskon potongan khusus sampai akhir bulan. Yuk kepoin promo lengkapnya di sini: [Link Produk]" },
+      { id: 134, category: "broadcast", sub: "Broadcast momen spesial", style: "persuasif", title: "Momen Spesial — Versi Ulang Tahun Toko (Anniversary)", text: "🎂 ANNIVERSARY SALE [Nama Toko]! 🎂\nSebagai bentuk rasa syukur, [Nama Toko] bagi-bagi diskon Rp[Harga] untuk [Nama Produk] plus free gift cantik! Terima kasih udah setia bersama kami 🙏" },
+      { id: 135, category: "broadcast", sub: "Broadcast momen spesial", style: "to-the-point", title: "Momen Spesial — Versi Penawaran Hari Spesial", text: "🌟 PROMO HARI SPESIAL! 🌟\nMulai hari dengan semangat baru bareng [Nama Produk]! Dapatkan penawaran harga spesial cuma Rp[Harga] hanya hari ini!" },
+      { id: 136, category: "broadcast", sub: "Broadcast stok terbatas", style: "emoji", title: "Broadcast Stok — Versi Warning Stok Kritis", text: "🚨 STOK TERAKHIR! (REMAINING STOCKS) 🚨\nHalo kak [Nama], stok [Nama Produk] sisa beberapa pcs lagi di gudang! Siapa cepat dia dapat yaa. Amankan slotmu sekarang: [Link Produk]" },
+      { id: 137, category: "broadcast", sub: "Broadcast stok terbatas", style: "to-the-point", title: "Broadcast Stok — Versi Varian Favorit Tersisa 3", text: "Varian favorit dari [Nama Produk] tersisa 3 pcs lagi kak! Setelah ini bakal kosong cukup lama. Order sebelum kehabisan kak!" },
+      { id: 138, category: "broadcast", sub: "Broadcast stok terbatas", style: "emoji", title: "Broadcast Stok — Versi Pembeli Borong Stok", text: "Waduh! 😱 Banyak banget yang borong [Nama Produk] hari ini kak. Stok makin menipis! Klik link ini buat ambil sisa stoknya: [Link Produk]" },
+      { id: 139, category: "broadcast", sub: "Broadcast stok terbatas", style: "persuasif", title: "Broadcast Stok — Versi 2 Jam Promo Ditutup", text: "⏳ 2 JAM LAGI PROMO DITUTUP & STOK HABIS! ⏳\nJangan sampai nyesel besok harga kembali normal Rp[Harga]. Checkout [Nama Produk] sekarang kak!" },
+      { id: 140, category: "broadcast", sub: "Broadcast stok terbatas", style: "to-the-point", title: "Broadcast Stok — Versi Ringkas Alert Sold Out", text: "ALERT: Stok [Nama Produk] sisa beberapa unit lagi. Pesan sekarang sebelum sold out total!" },
+
+      // 5. UPSELLING (20 Templates: 141 - 160)
+      { id: 141, category: "upselling", sub: "Upsell produk premium", style: "santai", title: "Upsell Premium — Versi Edukasi Paket Jumbo", text: "Wah pilihan bagus kak [Nama] tertarik sama [Nama Produk]. Tapi FYI nih, kalau kak [Nama] nambah Rp[Harga] aja, bisa dapet versi Premium [Nama Produk] yang ukurannya 2x lebih besar + dapet [Bonus]! Jauh lebih hemat lho kak 😉" },
+      { id: 142, category: "upselling", sub: "Upsell produk premium", style: "to-the-point", title: "Upsell Premium — Versi Perbandingan Varian Pro", text: "Kak [Nama], daripada ambil varian standar Rp[Harga], mending upgrade ke Varian Pro Rp[Harga]. Hasilnya 3x lebih cepat dan awet dipakai 6 bulan. Mau di-upgrade pesanannya?" },
+      { id: 143, category: "upselling", sub: "Upsell produk premium", style: "persuasif", title: "Upsell Premium — Versi Fitur Lengkap & Garansi", text: "Saran mimin kak [Nama], sekalian ambil versi [Nama Produk] Premium deh. Harganya cuma beda Rp[Harga], tapi udah dapet garansi resmi + fitur unggulan lengkap!" },
+      { id: 144, category: "upselling", sub: "Upsell produk premium", style: "persuasif", title: "Upsell Premium — Versi Paket Isi 3 Pcs", text: "Kak [Nama] beli 1 pcs harga Rp[Harga]. Kalau ambil Paket Hemat Isi 3 Pcs harganya cuma Rp[Harga] (jatuhnya lebih murah per pcs + free ongkir!). Mau tukar ke paket hemat?" },
+      { id: 145, category: "upselling", sub: "Upsell produk premium", style: "santai", title: "Upsell Premium — Versi Rekomendasi 90% Customer", text: "Berdasarkan pengalaman pembeli lain kak [Nama], 90% customer lebih puas ambil versi [Nama Produk] Premium. Karena bahannya lebih bagus dan nyaman. Mau coba versi ini kak?" },
+      { id: 146, category: "upselling", sub: "Upsell produk premium", style: "to-the-point", title: "Upsell Premium — Versi Potongan Diskon Upgrade", text: "Khusus untuk kak [Nama], kalau mau upgrade dari [Nama Produk] biasa ke [Nama Produk] Premium, mimin kasih diskon upgrade Rp[Harga] deh! Mau kak?" },
+      { id: 147, category: "upselling", sub: "Upsell produk premium", style: "emoji", title: "Upsell Premium — Versi Nambah Dikit Dapet Aksesoris", text: "Nambah cuma Rp[Harga] lagi, kak [Nama] udah dapet [Nama Produk] Premium lengkap sama aksesoris [Bonus]. Mau dikirim yang versi lengkap ini kak?" },
+      { id: 148, category: "upselling", sub: "Upsell produk premium", style: "persuasif", title: "Upsell Premium — Versi Hasil Maksimal", text: "Kalau mau hasil yang benar-benar maksimal buat atasi [Alasan/Keluhan], mimin highly recommend ambil tipe Premium kak. Mau mimin hitungkan total harganya?" },
+      { id: 149, category: "upselling", sub: "Upsell produk premium", style: "santai", title: "Upsell Premium — Versi Pembeli Pintar Stok Terbatas", text: "Varian [Nama Produk] Premium stoknya terbatas banget kak dan paling dicari. Mumpung hari ini ready, mau sekalian diisi di paketnya kak?" },
+      { id: 150, category: "upselling", sub: "Upsell produk premium", style: "soft", title: "Upsell Premium — Versi Info Santai Upgrade", text: "Sekadar info aja nih kak [Nama] hehe 😊 Kita lagi ada promo upgrade ke versi Premium cuma nambah Rp[Harga]. Siapa tahu kak [Nama] berminat!" },
+      { id: 151, category: "upselling", sub: "Upsell bundling checkout", style: "santai", title: "Bundling Checkout — Versi Diskon Paket Bundling", text: "Mantap kak [Nama]! Sebelum mimin cetak resi [Nama Produk], mau sekalian nambah item pelengkap? Kalau dibeli barengan sekarang dapet diskon paket bundling Rp[Harga] lho!" },
+      { id: 152, category: "upselling", sub: "Upsell bundling checkout", style: "to-the-point", title: "Bundling Checkout — Versi Pengejar Free Ongkir", text: "Kak [Nama], belanjaannya sisa Rp[Harga] lagi buat dapet GRATIS ONGKIR nih! Mau sekalian nambah item pelengkap cuma Rp[Harga] biar ongkirnya jadi 0 rupiah?" },
+      { id: 153, category: "upselling", sub: "Upsell bundling checkout", style: "persuasif", title: "Bundling Checkout — Versi Combo Nampol", text: "FYI kak [Nama], [Nama Produk] ini paling nampol kalau dipakai barengan produk pendamping. Khusus checkout sekarang, mimin kasih harga combo cuma Rp[Harga]!" },
+      { id: 154, category: "upselling", sub: "Upsell bundling checkout", style: "emoji", title: "Bundling Checkout — Versi Diskon 50% Item Kedua", text: "Promo spesial checkout! Tambah item pelengkap sekarang juga dan dapatkan DISKON 50% untuk item kedua ini. Mau dimasukkan ke dus pengiriman sekalian?" },
+      { id: 155, category: "upselling", sub: "Upsell bundling checkout", style: "to-the-point", title: "Bundling Checkout — Versi Hemat Ongkir 1 Kg", text: "Mumpung ongkirnya masih muat sampai 1 kg kak, mau sekalian nambah item pelengkap? Biaya kirimnya tetep sama alias gak nambah ongkir lagi!" },
+      { id: 156, category: "upselling", sub: "Upsell bundling checkout", style: "santai", title: "Bundling Checkout — Versi Serba Murah Aksesoris", text: "Kak [Nama], mau nambah produk aksesoris cuma nambah Rp[Harga] aja? Khusus pendamping [Nama Produk] transaksi hari ini!" },
+      { id: 157, category: "upselling", sub: "Upsell bundling checkout", style: "soft", title: "Bundling Checkout — Versi Box Kado & Ucapan", text: "Mau buat kado atau pemakaian pribadi kak? Kalau tambah Rp[Harga] bisa dapet Paket Box Eksklusif + Pita & Kartu Ucapan lho kak 😊" },
+      { id: 158, category: "upselling", sub: "Upsell bundling checkout", style: "to-the-point", title: "Bundling Checkout — Versi Stok Refill Cadangan", text: "Sekalian nambah refill/cadangan produknya kak? Daripada nanti kehabisan terus bayar ongkir lagi dari awal hehe." },
+      { id: 159, category: "upselling", sub: "Upsell bundling checkout", style: "santai", title: "Bundling Checkout — Versi Rekomendasi Mimin", text: "Saran pribadi dari mimin nih kak, sekalian ambil paket bundling [Nama Produk] + item pendamping. Dijamin berguna banget buat sehari-hari!" },
+      { id: 160, category: "upselling", sub: "Upsell bundling checkout", style: "to-the-point", title: "Bundling Checkout — Versi Konfirmasi Paket Combo", text: "Total [Nama Produk] Rp[Harga]. Tambah item pendamping jadi Rp[Harga] (Hemat Rp[Harga]). Mau diproses paket combo atau produk tunggal kak?" },
+
+      // 6. CROSS SELLING (20 Templates: 161 - 180)
+      { id: 161, category: "crossselling", sub: "Cross sell setelah pembelian", style: "santai", title: "Cross Sell Beli — Versi Ucapan + Produk Pendamping", text: "Halo kak [Nama], terima kasih ya pesanan [Nama Produk]-nya sudah meluncur 🚚 Btw, biar hasilnya 2x lebih optimal, biasanya pelanggan kita juga pakai produk pelengkap lho kak. Mau dicoba untuk order berikutnya?" },
+      { id: 162, category: "crossselling", sub: "Cross sell setelah pembelian", style: "to-the-point", title: "Cross Sell Beli — Versi Voucher Order Kedua", text: "Hai kak [Nama]! Sebagai apresiasi pembelian [Nama Produk], mimin kasih voucher diskon Rp[Harga] khusus untuk pembelian produk pelengkap nih. Kode vouchernya: [Kode Promo] 😊" },
+      { id: 163, category: "crossselling", sub: "Cross sell setelah pembelian", style: "emoji", title: "Cross Sell Beli — Versi Tanya Kesan & Katalog Baru", text: "Halo kak [Nama], gimana [Nama Produk]-nya udah dicoba? Semoga suka ya! Oiya, kita baru aja ready produk pelengkap yang pas banget dipaduin sama [Nama Produk] kemarin kak. Mau liat katalognya?" },
+      { id: 164, category: "crossselling", sub: "Cross sell setelah pembelian", style: "persuasif", title: "Cross Sell Beli — Versi Produk Care / Maintenance", text: "Kak [Nama], biar [Nama Produk] yang dibeli kemarin tetap awet dan kinclong, wajib banget dirawat pakai produk pembersih/pelengkap kak. Mimin kasih harga khusus pembeli setia Rp[Harga] aja!" },
+      { id: 165, category: "crossselling", sub: "Cross sell setelah pembelian", style: "santai", title: "Cross Sell Beli — Versi Matching Warna / Varian", text: "Hai kak [Nama] 👋 Kakak kan udah cocok nih sama [Nama Produk]. Nah kita ada koleksi baru produk pelengkap yang warnanya matching banget. Cek di sini ya kak: [Link Produk]" },
+      { id: 166, category: "crossselling", sub: "Cross sell setelah pembelian", style: "emoji", title: "Cross Sell Beli — Versi Hak Tebus Murah", text: "Kabar gembira kak [Nama]! Karena kemarin udah belanja [Nama Produk], kak [Nama] berhak TEBUS MURAH produk pelengkap cuma seharga Rp[Harga] (Harga normal lebih mahal)!" },
+      { id: 167, category: "crossselling", sub: "Cross sell setelah pembelian", style: "persuasif", title: "Cross Sell Beli — Versi Penyempurna Hasil", text: "Halo kak [Nama], selain pakai [Nama Produk], untuk menyempurnakan atasi [Alasan/Keluhan], kak [Nama] juga bisa kombinasikan dengan produk pelengkap kak. Mau mimin kirim info lengkapnya?" },
+      { id: 168, category: "crossselling", sub: "Cross sell setelah pembelian", style: "to-the-point", title: "Cross Sell Beli — Versi Free Ongkir Order Menyusul", text: "Paket [Nama Produk] udah jalan ya kak. Btw kalau kak [Nama] mau order produk pelengkap hari ini, mimin kasih free ongkir khusus buat kak [Nama]!" },
+      { id: 169, category: "crossselling", sub: "Cross sell setelah pembelian", style: "santai", title: "Cross Sell Beli — Versi Pemakaian Lebih Nyaman", text: "Hai sis [Nama]! Jangan lupa ya, [Nama Produk] bakal lebih nyaman kalau dipakai bareng produk pelengkap. Mumpung lagi ada promo diskon, yuk diborong sis!" },
+      { id: 170, category: "crossselling", sub: "Cross sell setelah pembelian", style: "soft", title: "Cross Sell Beli — Versi Berbagi Info Santai", text: "Siang kak [Nama]! Cuma mau berbagi info aja nih, kita ada produk pelengkap yang lagi banyak dicari. Siapa tahu kak [Nama] butuh buat melengkapi [Nama Produk]-nya 😊" },
+      { id: 171, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "persuasif", title: "Cross Sell Tanya — Versi Solusi Komplit 2 Barang", text: "Selain [Nama Produk], kak [Nama] juga bisa kombinasikan sama produk pelengkap kak. Dua barang ini kalau dipakai barengan bisa mempercepat atasi [Alasan/Keluhan] lho! Mau dikirim dua-duanya?" },
+      { id: 172, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "santai", title: "Cross Sell Tanya — Versi Manfaat Tambahan", text: "Kalau kak [Nama] butuh buat atasi keluhan, [Nama Produk] memang pas. Tapi kalau mau dapet manfaat tambahan maksimal, wajib nambah produk pelengkap kak 😊" },
+      { id: 173, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "to-the-point", title: "Cross Sell Tanya — Versi Paket Komplit Hemat", text: "Daripada cuma beli [Nama Produk] Rp[Harga], mending langsung ambil Paket Komplit + produk pelengkap cuma Rp[Harga]. Lebih hemat Rp[Harga] kak!" },
+      { id: 174, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "emoji", title: "Cross Sell Tanya — Versi Foto Paduan Serasi", text: "Liat deh kak [Nama] 😍 [Nama Produk] kalau dipaduin sama produk pelengkap warnanya serasi banget kan? Mau sekalian dimasukkan ke keranjang belanjaan?" },
+      { id: 175, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "to-the-point", title: "Cross Sell Tanya — Versi Konfirmasi Pasangan Produk", text: "Bisa banget kak! Untuk [Nama Produk] ini memang paling cocok dipasangin sama produk pelengkap. Kebetulan di [Nama Toko] dua-duanya ready stok." },
+      { id: 176, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "santai", title: "Cross Sell Tanya — Versi Praktis Pemakaian", text: "Saran mimin sih kak [Nama], sekalian ambil produk pelengkapnya juga. Soalnya kalau cuma [Nama Produk] aja nanti bakal butuh barang pelengkap juga pas pemakaian." },
+      { id: 177, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "persuasif", title: "Cross Sell Tanya — Versi Manfaatkan Kapasitas Ongkir", text: "Sekalian beli produk pelengkap aja kak biar ongkirnya gak rugi cuma bawa 1 barang. Ongkir ke [Kota] tetep dihitung 1 kg kok!" },
+      { id: 178, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "to-the-point", title: "Cross Sell Tanya — Versi Invoice Gabungan", text: "Biar gak dua kali transaksi kak, sekalian amankan [Nama Produk] + produk pelengkap hari ini ya. Mau dibantu buatkan invoice gabungannya?" },
+      { id: 179, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "santai", title: "Cross Sell Tanya — Versi Kompatibel 100%", text: "Kedua produk ini ([Nama Produk] dan produk pelengkap) 100% cocok kak. Dijamin pas dan gak bakal kecewa. Siap dikirim hari ini?" },
+      { id: 180, category: "crossselling", sub: "Cross sell saat tanya-tanya", style: "soft", title: "Cross Sell Tanya — Versi Pilihan Satuan / Komplit", text: "Semoga penjelasan [Nama Produk] dan produk pelengkap tadi membantu ya kak [Nama]. Mau ambil yang paket satuan atau paket komplit kak?" },
+
+      // 7. RETENSI PELANGGAN (25 Templates: 181 - 205)
+      { id: 181, category: "retensi", sub: "Repeat order pelanggan lama", style: "emoji", title: "Repeat Order — Versi Sapaan Pelanggan Kesayangan", text: "Halo kak [Nama] kesayangan [Nama Toko]! ❤️ Gimana kabarnya nih? Stok [Nama Produk] di rumah masih aman atau udah mau habis kak? Ada promo khusus repeat order nih!" },
+      { id: 182, category: "retensi", sub: "Repeat order pelanggan lama", style: "to-the-point", title: "Repeat Order — Versi Diskon Khusus Langganan", text: "Hai kak [Nama]! Sebagai pelanggan setia, mimin kasih diskon khusus 15% untuk pembelian repeat order [Nama Produk] hari ini. Mau diisikan stok lagi kak?" },
+      { id: 183, category: "retensi", sub: "Repeat order pelanggan lama", style: "santai", title: "Repeat Order — Versi Reminder 30 Hari", text: "Halo kak [Nama]! Udah sebulan nih sejak pembelian [Nama Produk] terakhir 😊 Biasanya di waktu segini stoknya udah mulai nipis. Mau mimin kirimkan paket baru hari ini?" },
+      { id: 184, category: "retensi", sub: "Repeat order pelanggan lama", style: "persuasif", title: "Repeat Order — Versi Saldo Cashback Tersimpan", text: "Halo kak [Nama], ada saldo cashback Rp[Harga] tersimpan dari transaksi [Nama Produk] kemarin nih. Saldonya bisa dipake buat potong harga orderan hari ini lho!" },
+      { id: 185, category: "retensi", sub: "Repeat order pelanggan lama", style: "santai", title: "Repeat Order — Versi Penawaran Varian Baru", text: "Hai kak [Nama]! Kan kemarin udah coba varian standar, sekarang [Nama Toko] ada varian baru dari [Nama Produk] yang gak kalah best seller! Mau cobain kak?" },
+      { id: 186, category: "retensi", sub: "Repeat order pelanggan lama", style: "to-the-point", title: "Repeat Order — Versi Priority Shipping VIP", text: "Khusus kak [Nama] pelanggan VIP kita, order [Nama Produk] hari ini dapet fasilitas PRIORITY SHIPPING (langsung dikirim tanpa antri). Siapa mau diproses kak?" },
+      { id: 187, category: "retensi", sub: "Repeat order pelanggan lama", style: "soft", title: "Repeat Order — Versi Tanya Perkembangan Pemakaian", text: "Halo kak [Nama] 👋 Mau dengar kabar baik nih, gimana perubahan setelah rutin pakai [Nama Produk]? Kalau mau lanjut perawatan, stok lagi ready banyak ya kak!" },
+      { id: 188, category: "retensi", sub: "Repeat order pelanggan lama", style: "emoji", title: "Repeat Order — Versi Beli 2 Diskon Potongan", text: "Khusus yang udah pernah beli kayak kak [Nama], beli 2 pcs [Nama Produk] dapet diskon Rp[Harga] + Free [Bonus]. Promo berlaku minggu ini ya kak!" },
+      { id: 189, category: "retensi", sub: "Repeat order pelanggan lama", style: "santai", title: "Repeat Order — Versi Kangen Kirim Paket", text: "Hai kak [Nama], udah kangen nih mimin gak kirim paket ke tempat kak [Nama] hehe 😜 Mau ngingetin aja [Nama Produk] favoritnya lagi ada harga promo lho!" },
+      { id: 190, category: "retensi", sub: "Repeat order pelanggan lama", style: "to-the-point", title: "Repeat Order — Versi Re-order 1-Click Alamat Sama", text: "Halo kak [Nama], mau re-order [Nama Produk] ke alamat yang sama seperti kemarin ([Kota])? Cukup balas 'YA', langsung mimin siapkan pesenannya!" },
+      { id: 191, category: "retensi", sub: "Terima kasih & soft-selling", style: "emoji", title: "Terima Kasih — Versi Warm Thanks & Review Request", text: "Terima kasih banyak ya kak [Nama] udah belanja [Nama Produk] di [Nama Toko]! ❤️ Paket segera dikirim. Nanti kalau barang sampai dan kak [Nama] suka, sudi ya kirim foto/video ulasannya 🥰" },
+      { id: 192, category: "retensi", sub: "Terima kasih & soft-selling", style: "to-the-point", title: "Terima Kasih — Versi Resi + Katalog Produk Pelengkap", text: "Pesanan [Nama Produk] kak [Nama] sudah terkirim ya! Sambil nunggu paket nyampe, kak [Nama] bisa intip katalog produk pelengkap kita di sini ya: [Link Produk]" },
+      { id: 193, category: "retensi", sub: "Terima kasih & soft-selling", style: "persuasif", title: "Terima Kasih — Versi Voucher Hadiah Next Order", text: "Paket [Nama Produk] meluncur! 🚀 Terima kasih kak [Nama]. Sebagai hadiah, ini ada voucher diskon Rp[Harga] (Kode: [Kode Promo]) buat orderan selanjutnya ya kak!" },
+      { id: 194, category: "retensi", sub: "Terima kasih & soft-selling", style: "soft", title: "Terima Kasih — Versi Petunjuk Pakai & Support WA", text: "Terima kasih orderannya kak [Nama]! Nanti pas [Nama Produk] sampai, cara pakainya ada di dalam dus ya. Kalau ada kendala, WA mimin kapan aja, mimin siap bantu 👍" },
+      { id: 195, category: "retensi", sub: "Terima kasih & soft-selling", style: "santai", title: "Terima Kasih — Versi Ajakan Komunitas WA", text: "Terima kasih kak [Nama]! Biar gak ketinggalan promo rahasia & tips seputar [Nama Produk], yuk join Komunitas WA [Nama Toko] di link ini: [Link Produk]" },
+      { id: 196, category: "retensi", sub: "Terima kasih & soft-selling", style: "emoji", title: "Terima Kasih — Versi Syukur & Doa Keberkahan", text: "Alhamdulillah, pembayaran [Nama Produk] sudah diterima. Terima kasih banyak kak [Nama], semoga produknya bermanfaat dan berkah selalu untuk kak [Nama] 🤲✨" },
+      { id: 197, category: "retensi", sub: "Terima kasih & soft-selling", style: "persuasif", title: "Terima Kasih — Versi Komisi Referral Teman", text: "Makasih ya kak [Nama]! Btw kalau kak [Nama] rekomendasiin [Nama Produk] ini ke temen/saudara, kak [Nama] bakal dapet komisi Rp[Harga] per pembeli lho! Hubungi mimin kalau mau ikutan 😊" },
+      { id: 198, category: "retensi", sub: "Terima kasih & soft-selling", style: "to-the-point", title: "Terima Kasih — Versi Simpel Update Resi Malam", text: "Terima kasih kak [Nama] sudah berbelanja di [Nama Toko]! Resi [Nama Produk] akan diupdate malam ini. Selamat beraktivitas kembali kak!" },
+      { id: 199, category: "retensi", sub: "Reminder restock produk", style: "santai", title: "Reminder Restock — Versi Prediksi Stok Habis", text: "Halo kak [Nama]! Niat ngingetin aja nih, [Nama Produk] yang dibeli kemarin kayaknya udah tinggal dikit/mau habis ya? Biar gak putus pemakaiannya, yuk restock dari sekarang kak! 😊" },
+      { id: 200, category: "retensi", sub: "Reminder restock produk", style: "to-the-point", title: "Reminder Restock — Versi Gudang Restock Lengkap", text: "Kabar gembira kak [Nama]! Stok [Nama Produk] yang kemarin sempet kosong sekarang udah RESTOCK LENGKAP di gudang. Mau langsung amanin sebelum kehabisan lagi?" },
+      { id: 201, category: "retensi", sub: "Reminder restock produk", style: "emoji", title: "Reminder Restock — Versi Cek Sisa Pcs + Free Ongkir", text: "Hai kak [Nama] 👋 [Nama Produk]-nya sisa berapa pcs lagi di rumah? Mumpung minggu ini [Nama Toko] lagi gratis ongkir, mending isi ulang stok sekarang kak!" },
+      { id: 202, category: "retensi", sub: "Reminder restock produk", style: "persuasif", title: "Reminder Restock — Versi Diskon Rutin Langganan", text: "Halo kak [Nama], saatnya isi ulang stok [Nama Produk] nih! Khusus langganan rutin seperti kak [Nama], ada potong diskon Rp[Harga] per pcs. Mau diorderkan hari ini?" },
+      { id: 203, category: "retensi", sub: "Reminder restock produk", style: "persuasif", title: "Reminder Restock — Versi Info Pasokan Pusat Terbatas", text: "Kak [Nama], FYI aja pasokan [Nama Produk] dari pusat lagi terbatas nih. Mumpung di [Nama Toko] masih ada stok, yuk amankan buat cadangan 2-3 bulan ke depan kak!" },
+      { id: 204, category: "retensi", sub: "Reminder restock produk", style: "soft", title: "Reminder Restock — Versi Hasil Maksimal Tanpa Jeda", text: "Biar hasil penggunaan [Nama Produk] tetap maksimal dan gak mulai dari awal lagi, jangan sampai jeda ya kak [Nama]. Mau dikirimkan paket restock-nya ke alamat kemarin?" },
+      { id: 205, category: "retensi", sub: "Reminder restock produk", style: "to-the-point", title: "Reminder Restock — Versi Pesan Cepat Siapkan Kotak", text: "Hai kak [Nama]! Sudah waktunya restock [Nama Produk] nih hehe 😁 Langsung klik balasan chat ini biar mimin langsung siapkan kotaknya ya kak! Makasih kak!" },
+
+      // 8. BAGIAN 4: BONUS HANDLING KOMPLAIN & REFUND (25 Templates: 206 - 230)
+      { id: 206, category: "komplain", sub: "Komplain produk rusak/cacat", style: "soft", title: "Komplain Rusak — Versi Empati Langsung Ganti Baru", text: "Halo kak [Nama], duh mohon maaf banget ya atas ketidaknyamanannya 😭 Kakak gak usah khawatir, [Nama Toko] garansi 100%. Tolong kirim foto/video bagian yang cacat ya kak, langsung kita kirimkan produk pengganti baru TANPA biaya tambahan sama sekali!" },
+      { id: 207, category: "komplain", sub: "Komplain produk rusak/cacat", style: "to-the-point", title: "Komplain Rusak — Versi Tenang & Solusi Pengiriman Cepat", text: "Waduh mohon maaf ya kak [Nama] barangnya sampai dalam keadaan kurang sempurna. Kita langsung tanggung jawab kok kak. Mohon fotokan paketnya ya, hari ini juga kita proses pengiriman ulang barang yang baru 👍" },
+      { id: 208, category: "komplain", sub: "Komplain produk rusak/cacat", style: "santai", title: "Komplain Rusak — Versi Tanggung Jawab Ekspedisi", text: "Halo kak [Nama], maaf banget ya kemungkinan ada kendala pas penanganan di ekspedisi. Tapi tenang kak, di [Nama Toko] barang rusak di jalan kita ganti baru. Boleh bantu video unboxing-nya kak?" },
+      { id: 209, category: "komplain", sub: "Komplain produk rusak/cacat", style: "persuasif", title: "Komplain Rusak — Versi Opsi Tukar Part Terpisah", text: "Halo kak [Nama], mohon maaf atas kejadian ini ya 🙏 Kalau bagian [Nama Produk] ada yang patah/rusak, kita bisa langsung kirimkan sparepart penggantinya hari ini kak. Mau dikirim ke alamat kemarin?" },
+      { id: 210, category: "komplain", sub: "Komplain produk rusak/cacat", style: "soft", title: "Komplain Rusak — Versi Gratis Ongkir Retur", text: "Mohon maaf banget kak [Nama] atas kelalaian tim QC kami 🙏 Semua ongkir retur & pengiriman baru 100% [Nama Toko] yang tanggung ya kak. Kakak cukup kemas ulang barangnya, nanti kurir kita yang pick-up." },
+      { id: 211, category: "komplain", sub: "Komplain tidak sesuai foto", style: "soft", title: "Tidak Sesuai — Versi Validasi Perasaan + Tukar Varian", text: "Halo kak [Nama], mohon maaf banget ya kalau produk [Nama Produk] yang sampai beda dengan ekspektasi kak [Nama] 🙏 Tolong infokan varian mana yang salah kirim ya kak, biar langsung mimin tukar dengan varian yang benar." },
+      { id: 212, category: "komplain", sub: "Komplain tidak sesuai foto", style: "to-the-point", title: "Tidak Sesuai — Versi Beda Varian Packing", text: "Waduh maaf ya kak [Nama], sepertinya ada kekeliruan tim packing saat memasukkan varian. Kakak tenang aja ya, kita bisa tukar barang sesuai pesanan semula. Ongkir PP kita yang tanggung kok kak!" },
+      { id: 213, category: "komplain", sub: "Komplain tidak sesuai foto", style: "persuasif", title: "Tidak Sesuai — Versi Transfer Selisih Harga", text: "Halo kak [Nama], mohon maaf atas kesalahan kirim tipe ini ya. Kalau kak [Nama] berkenan pakai tipe yang sampai ini, selisih harganya Rp[Harga] langsung mimin transfer balik ke rekening kak [Nama]. Atau mau ditukar barang baru kak?" },
+      { id: 214, category: "komplain", sub: "Komplain tidak sesuai foto", style: "emoji", title: "Tidak Sesuai — Versi Kompensasi Voucher", text: "Halo kak [Nama], maaf banget atas kekeliruan ini. Sebagai permohonan maaf, barang yang salah boleh disimpan / ditukar + mimin kasih voucher diskon Rp[Harga] untuk transaksi berikutnya ya kak." },
+      { id: 215, category: "komplain", sub: "Komplain tidak sesuai foto", style: "to-the-point", title: "Tidak Sesuai — Versi Fast Track Kirim Baru", text: "Mohon maaf atas ketidaknyamanannya kak [Nama] 🙏 Kirimkan foto barang yang diterima ya kak, hari ini tim gudang kita langsung kirim barang yang pas tanpa nunggu barang lama sampai di gudang kita dulu!" },
+      { id: 216, category: "komplain", sub: "Komplain pengiriman lambat", style: "santai", title: "Pengiriman Lambat — Versi Cek Resi & Follow Up Hub", text: "Halo kak [Nama], mohon maaf ya paketnya agak terhambat 🙏 Mimin udah cek posisi resi, sekarang paket udah di hub [Kota]. Mimin langsung buatkan laporan ke pihak ekspedisi biar diprioritaskan hari ini ya kak!" },
+      { id: 217, category: "komplain", sub: "Komplain pengiriman lambat", style: "soft", title: "Pengiriman Lambat — Versi Empati Overload Ekspedisi", text: "Halo kak [Nama], maaf banget ya kurir ekspedisi lagi ada overload pengiriman di area [Kota] karena momen promo. Mimin bantu kawal terus tiap jam sampai paket beneran mendarat di rumah kak [Nama] ya." },
+      { id: 218, category: "komplain", sub: "Komplain pengiriman lambat", style: "to-the-point", title: "Pengiriman Lambat — Versi Kendala Cuaca/Jalur", text: "Halo kak [Nama], mohon maaf pengiriman [Nama Produk] agak tertunda karena kendala cuaca/jalur di ekspedisi. Estimasi sampai besok siang kak. Terima kasih banyak atas kesabarannya ya kak 🙏" },
+      { id: 219, category: "komplain", sub: "Komplain pengiriman lambat", style: "persuasif", title: "Pengiriman Lambat — Versi Kontak Kurir Lokal", text: "Halo kak [Nama], maaf ya paketnya lambat. Mimin udah dapet kontak kurir ekspedisi yang pegang paket kak [Nama] di [Kota]. Mimin udah minta kurirnya kirim kloter pertama pagi ini ya kak 👍" },
+      { id: 220, category: "komplain", sub: "Komplain pengiriman lambat", style: "emoji", title: "Pengiriman Lambat — Versi Kompensasi Cashback Ongkir", text: "Duh maaf banget kak [Nama] pengiriman terhambat dari estimasi. Sebagai bentuk permohonan maaf [Nama Toko], ongkirnya senilai Rp[Harga] mimin kembalikan ke saldo/rekening kak [Nama] ya. Terima kasih banyak!" },
+      { id: 221, category: "komplain", sub: "Permintaan refund dana", style: "soft", title: "Refund — Versi Proses Cepat Tanpa Ribet", text: "Halo kak [Nama], mohon maaf ya kalau pelayanan/produk kami belum memuaskan kak [Nama] 🙏 Baik kak, kami hormati keputusan refund. Boleh bantu kirimkan nomor rekening & nama bank kak? Pengembalian dana 100% diproses hari ini." },
+      { id: 222, category: "komplain", sub: "Permintaan refund dana", style: "to-the-point", title: "Refund — Versi Syarat Retur Resi", text: "Halo kak [Nama], siap kita bantu refund 100% kak. Kakak cukup kirim balik [Nama Produk] ke alamat toko kami ya. Setelah no resi retur diinfokan, dana Rp[Harga] langsung mimin transfer balik saat itu juga." },
+      { id: 223, category: "komplain", sub: "Permintaan refund dana", style: "persuasif", title: "Refund — Versi Opsi Tukar Produk Lain Dulu", text: "Halo kak [Nama], mohon maaf ya atas ketidaknyamanannya. Sebelum refund diproses, apakah kak [Nama] mau coba tukar dengan produk lain dulu? Kalau tetap mau refund dana, siap mimin transfer hari ini kok kak 😊" },
+      { id: 224, category: "komplain", sub: "Permintaan refund dana", style: "to-the-point", title: "Refund — Versi Konfirmasi Bukti Transfer", text: "Halo kak [Nama], dana refund sebesar Rp[Harga] untuk pesanan [Nama Produk] sudah berhasil ditransfer kembali ke rekening bank kak [Nama] ya. Ini bukti transfernya. Sekali lagi mohon maaf atas kendalanya ya kak 🙏" },
+      { id: 225, category: "komplain", sub: "Permintaan refund dana", style: "soft", title: "Refund — Versi Penutup Sopan & Pintu Terbuka", text: "Proses refund sudah selesai ya kak [Nama]. Terima kasih banyak atas koreksinya untuk [Nama Toko]. Semoga di lain kesempatan kita bisa melayani kak [Nama] dengan lebih baik lagi. Sehat selalu kak!" },
+      { id: 226, category: "komplain", sub: "Customer emosi/marah", style: "soft", title: "Customer Marah — Versi Meredakan Emosi + Validasi", text: "Halo kak [Nama], mimin paham banget kenapa kak [Nama] kecewa & marah, dan mimin minta maaf yang sebesar-besarnya atas masalah ini 🙏 Tolong beri kesempatan mimin untuk perbaiki ya kak. Apa pun solusinya (ganti baru / refund 100%), mimin siap tanggung jawab penuh sekarang." },
+      { id: 227, category: "komplain", sub: "Customer emosi/marah", style: "to-the-point", title: "Customer Marah — Versi Tenang & Opsi Solusi", text: "Halo kak [Nama], terima kasih sudah menegur kami. Mimin tidak mencari alasan, ini murni kesalahan pihak kami 🙏 Biar masalahnya selesai hari ini juga, kak [Nama] lebih berkenan diganti produk baru atau refund dana penuh kak?" },
+      { id: 228, category: "komplain", sub: "Customer emosi/marah", style: "persuasif", title: "Customer Marah — Versi Penanganan Langsung Owner", text: "Halo kak [Nama], saya [Nama] selaku owner/admin senior [Nama Toko]. Saya memohon maaf secara pribadi atas ketidaknyamanan ini 🙏 Pesanan kak [Nama] langsung saya tangani sendiri hari ini sampai selesai tuntas." },
+      { id: 229, category: "komplain", sub: "Customer emosi/marah", style: "soft", title: "Customer Marah — Versi Masukan Berharga", text: "Halo kak [Nama], terima kasih atas masukannya yang sangat berharga. Kami sangat menyesal atas kejadian ini 🙏 Mohon maaf membuat kak [Nama] kesal. Hari ini juga dana/pesanan kita selesaikan sesuai keinginan kak [Nama]." },
+      { id: 230, category: "komplain", sub: "Customer emosi/marah", style: "emoji", title: "Customer Marah — Versi Solusi Plus Bonus Apresiasi", text: "Halo kak [Nama], sekali lagi mohon maaf lahir batin atas kekecewaan ini 🙏 Selain barang pengganti kita kirimkan ekspress hari ini, ada voucher/bonus [Bonus] khusus sebagai bentuk permohonan maaf kami. Terima kasih atas kesabarannya kak." }
+    ];
+
+    // Dataset Power Words (BAGIAN 3)
+    const powerWordsData = {
+      urgency: [
+        "Stok tersisa [Jumlah] unit lagi kak",
+        "Khusus pemesanan sebelum jam [Waktu]",
+        "Harga bakal kembali normal besok",
+        "Promo cuma berlaku hari ini saja",
+        "Keburu keduluan pembeli lain kak",
+        "Slot bonus gratis ongkir sisa 2 orang",
+        "Batas kirim hari ini jam [Waktu] sore",
+        "Sisa 3 pcs lagi di gudang",
+        "Varian favorit ini cepat banget habisnya",
+        "Mumpung harganya belum naik minggu depan",
+        "Flash sale kilat khusus jam ini",
+        "Hold slot cuma bertahan 15 menit",
+        "Diskon khusus transaksi hari ini",
+        "Batch pengiriman terakhir minggu ini",
+        "Kesempatan tebus murah cuma sampai malam ini"
+      ],
+      trust: [
+        "Sudah dipercaya 1.000+ pembeli se-Indonesia",
+        "Garansi uang kembali 100% jika barang cacat/tidak sesuai",
+        "Garansi tukar baru dalam [Jumlah] hari",
+        "Bisa bayar di tempat (COD) pas barang sampai",
+        "100% Original bersegel resmi",
+        "Bisa cek ulasan jujur pembeli di sini: [Link]",
+        "Sudah lulus uji kualitas & ada izin resmi",
+        "Sudah terkirim [Jumlah] pcs bulan ini",
+        "Customer service fast-response 24/7",
+        "Foto & video real pict tanpa filter",
+        "Packing tebal gratis bubble wrap aman",
+        "Sudah dipakai ribuan pelanggan dan bintang 5",
+        "Toko kami tepercaya berdiri sejak [Tahun]",
+        "Garansi sampai di tujuan dengan selamat",
+        "Bisa konsultasi gratis sebelum & sesudah beli"
+      ],
+      fomo: [
+        "Banyak yang borong varian ini hari ini",
+        "Warna favorit ini biasanya paling cepat sold out",
+        "Teman-teman lain udah pada checkout duluan nih",
+        "Sayang banget kalau terlewatkan promo yang ini",
+        "Restock berikutnya baru bulan depan lho",
+        "Ini varian yang paling sering direview pembeli",
+        "Banyak yang nyesel kemarin gak kebagian slot promo",
+        "Kemarin ada yang mau borong sisa stoknya",
+        "Jangan sampai cuma jadi penonton pas temen udah dapet",
+        "Mumpung masih dapat bonus aksesoris eksklusif",
+        "Ini seri limited edition yang jarang diproduksi lagi",
+        "Banyak yang re-order paket isi 2 pcs ini",
+        "Diskon terbesar sepanjang bulan ini",
+        "Pas banget mumpung lagi ada promo bundling hemat",
+        "Siapa cepat dia yang amankan warna favorit ini"
+      ],
+      cta: [
+        "Mau aku bantu proseskan pesenannya sekarang, kak?",
+        "Aku pending-in dulu slotnya ya kak biar gak keduluan?",
+        "Mau dikirim hari ini atau besok pagi kak [Nama]?",
+        "Kakak mau bayar via Transfer Bank atau COD di tempat?",
+        "Boleh minta nama penerima & alamat lengkapnya kak?",
+        "Mau ambil paket isi 1 pcs atau paket hemat isi 2 pcs kak?",
+        "Bales 'DEAL' sekarang biar promo gratis ongkirnya langsung mimin aktifin ya!",
+        "Gimana kak [Nama], mau diamanin varian [Varian]-nya?",
+        "Mau dimasukkan ke kloter pengiriman siang ini kak?",
+        "Aku bantu buatkan invoice pembayarannya sekarang ya kak?",
+        "Mau sekalian nambah item pelengkap biar hemat ongkir kak?",
+        "Kalau oke, klik link pembayaran ini ya kak: [Link Produk]",
+        "Mau coba 1 pcs dulu buat buktikan hasilnya kak?",
+        "Boleh kasih tau mimin mau dikirim via JNT, JNE, atau Shopee Express?",
+        "Aku bantu amankan voucher diskonnya ya kak [Nama]?",
+        "Mau mimin bungkuskan warna favoritnya sekarang?",
+        "Ada yang mau ditanyakan lagi atau bisa langsung kita kirim kak?",
+        "Mau ambil promo cashback Rp[Harga]-nya sekarang kak?",
+        "Boleh dikirimkan bukti transfernya kalau sudah ya kak 😊",
+        "Tinggal selangkah lagi nih kak, mau dikirim ke alamat rumah atau kantor?"
+      ]
+    };
+
+    // App State Management
+    let currentCategory = 'all';
+    let favorites = JSON.parse(localStorage.getItem('wa_playbook_favs') || '[]');
+
+    // Theme Toggle
+    function toggleTheme() {
+      const currentTheme = document.body.getAttribute('data-theme');
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      document.body.setAttribute('data-theme', newTheme);
+      localStorage.setItem('wa_playbook_theme', newTheme);
+    }
+
+    (function initTheme() {
+      const savedTheme = localStorage.getItem('wa_playbook_theme') || 'dark';
+      document.body.setAttribute('data-theme', savedTheme);
+    })();
+
+    function selectCategory(catKey, element) {
+      currentCategory = catKey;
+      document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+      if (element) element.classList.add('active');
+
+      const titleEl = document.getElementById('sectionTitle');
+      const descEl = document.getElementById('sectionDesc');
+      const powerSection = document.getElementById('powerWordsSection');
+      const templateContainer = document.getElementById('templateContainer');
+
+      if (catKey === 'powerwords') {
+        titleEl.textContent = 'BAGIAN 3: Power Words & CTA Penutup Chat (65 Frasa)';
+        descEl.textContent = 'Kumpulan kata pendobrak psikologi pembeli untuk menciptakan urgency, trust, FOMO, dan closing cepat.';
+        powerSection.style.display = 'block';
+        templateContainer.style.display = 'none';
+        renderPowerWords();
+        return;
+      } else {
+        powerSection.style.display = 'none';
+        templateContainer.style.display = 'flex';
+      }
+
+      const catNames = {
+        'all': ['Semua Template Chat WA Penjualan & Komplain (230)', 'Menampilkan 230 template lengkap dari Skenario 1 sampai 8.'],
+        'fav': ['Template Favorit Saya', 'Daftar template yang Anda simpan untuk akses cepat.'],
+        'followup': ['Category 1: FOLLOW UP (40 Template)', 'Strategi follow up prospek yang belum beli, abandoned checkout, hingga follow up bertingkat.'],
+        'closing': ['Category 2: CLOSING (35 Template)', 'Skrip penutup penjualan cepat dengan urgency, penawaran bonus, dan silent reader.'],
+        'objection': ['Category 3: HANDLING OBJECTION (35 Template)', 'Solusi instan mengatasi keberatan harga mahal, mikir-mikir, kompetitor, ongkir, & kualitas.'],
+        'broadcast': ['Category 4: BROADCAST PROMO (30 Template)', 'Pesan siaran massal untuk flash sale, produk baru, momen gajian, dan reminder stok.'],
+        'upselling': ['Category 5: UPSELLING (20 Template)', 'Teknik meningkatkan keranjang belanja dengan upgrade versi premium & paket bundling.'],
+        'crossselling': ['Category 6: CROSS SELLING (20 Template)', 'Peluang transaksi tambahan dengan menawarkan produk pelengkap yang relevan.'],
+        'retensi': ['Category 7: RETENSI PELANGGAN (25 Template)', 'Menjaga hubungan jangka panjang, repeat order berkala, dan penanganan paska beli.'],
+        'komplain': ['Category 8: HANDLING KOMPLAIN & REFUND (25 Template)', 'Respons empatik & profesional untuk produk cacat, beda varian, pengiriman lambat, refund, & pelanggan emosi.']
+      };
+
+      if (catNames[catKey]) {
+        titleEl.textContent = catNames[catKey][0];
+        descEl.textContent = catNames[catKey][1];
+      }
+
+      renderTemplates();
+    }
+
+    function renderPowerWords() {
+      const container = document.getElementById('powerWordsSection');
+      const getP = (txt) => getProcessedText(txt);
+
+      container.innerHTML = `
+        <div class="power-grid">
+          <div class="power-card">
+            <div class="power-title" style="color: #ef4444;">⚡ 1. Urgency Power Words (15)</div>
+            <ul class="power-list">
+              ${powerWordsData.urgency.map(w => `<li class="power-item"><span>${getP(w)}</span><button class="btn-copy" style="padding: 4px 8px; font-size: 0.75rem;" onclick="copyText('${getP(w)}')">Copy</button></li>`).join('')}
+            </ul>
+          </div>
+
+          <div class="power-card">
+            <div class="power-title" style="color: #22c55e;">🛡️ 2. Trust Power Words (15)</div>
+            <ul class="power-list">
+              ${powerWordsData.trust.map(w => `<li class="power-item"><span>${getP(w)}</span><button class="btn-copy" style="padding: 4px 8px; font-size: 0.75rem;" onclick="copyText('${getP(w)}')">Copy</button></li>`).join('')}
+            </ul>
+          </div>
+
+          <div class="power-card">
+            <div class="power-title" style="color: #f59e0b;">🔥 3. FOMO Halus Power Words (15)</div>
+            <ul class="power-list">
+              ${powerWordsData.fomo.map(w => `<li class="power-item"><span>${getP(w)}</span><button class="btn-copy" style="padding: 4px 8px; font-size: 0.75rem;" onclick="copyText('${getP(w)}')">Copy</button></li>`).join('')}
+            </ul>
+          </div>
+
+          <div class="power-card" style="grid-column: 1 / -1;">
+            <div class="power-title" style="color: #3b82f6;">📲 4. Kalimat CTA Penutup Chat Siap Pakai (20)</div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px; margin-top: 10px;">
+              ${powerWordsData.cta.map(w => `<div class="power-item"><span>${getP(w)}</span><button class="btn-copy" style="padding: 4px 10px; font-size: 0.75rem;" onclick="copyText('${getP(w)}')">Copy</button></div>`).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function toggleFav(id) {
+      if (favorites.includes(id)) {
+        favorites = favorites.filter(favId => favId !== id);
+      } else {
+        favorites.push(id);
+      }
+      localStorage.setItem('wa_playbook_favs', JSON.stringify(favorites));
+      document.getElementById('count-fav').textContent = favorites.length;
+      renderTemplates();
+    }
+
+    function getProcessedText(rawText) {
+      const nama = document.getElementById('ph-nama').value.trim() || '[Nama]';
+      const produk = document.getElementById('ph-produk').value.trim() || '[Nama Produk]';
+      const harga = document.getElementById('ph-harga').value.trim() || '[Harga]';
+      const toko = document.getElementById('ph-toko').value.trim() || '[Nama Toko]';
+      const kota = document.getElementById('ph-kota').value.trim() || '[Kota]';
+      const bonus = document.getElementById('ph-bonus').value.trim() || '[Bonus]';
+
+      let text = rawText;
+      text = text.replace(/\[Nama\]/g, nama);
+      text = text.replace(/\[Nama Produk\]/g, produk);
+      text = text.replace(/\[Harga\]/g, harga);
+      text = text.replace(/\[Nama Toko\]/g, toko);
+      text = text.replace(/\[Kota\]/g, kota);
+      text = text.replace(/\[Bonus\]/g, bonus);
+      return text;
+    }
+
+    function copyTemplate(id) {
+      const item = rawTemplates.find(t => t.id === id);
+      if (!item) return;
+      copyText(getProcessedText(item.text), `Template #${id} berhasil disalin!`);
+    }
+
+    function copyText(strText, msg) {
+      navigator.clipboard.writeText(strText).then(() => {
+        showToast(msg || `Teks disalin ke clipboard!`);
+      }).catch(err => {
+        const textarea = document.createElement('textarea');
+        textarea.value = strText;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        showToast(msg || `Teks disalin!`);
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2500);
+    }
+
+    function renderTemplates() {
+      const container = document.getElementById('templateContainer');
+      const searchQuery = document.getElementById('searchInput').value.toLowerCase().trim();
+      const styleFilter = document.getElementById('styleFilter').value;
+
+      document.getElementById('count-fav').textContent = favorites.length;
+
+      let filtered = rawTemplates.filter(t => {
+        if (currentCategory === 'fav') {
+          if (!favorites.includes(t.id)) return false;
+        } else if (currentCategory !== 'all' && t.category !== currentCategory) {
+          return false;
+        }
+
+        if (styleFilter !== 'all' && t.style !== styleFilter) {
+          return false;
+        }
+
+        if (searchQuery) {
+          const matchText = (t.text + ' ' + t.title + ' ' + t.sub).toLowerCase();
+          if (!matchText.includes(searchQuery)) return false;
+        }
+
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="text-align: center; padding: 48px; color: var(--text-muted); background: var(--bg-card); border-radius: 16px; border: 1px solid var(--border-color);">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">🔍</div>
+            <h3 style="font-weight: 700; font-size: 1.1rem; margin-bottom: 6px;">Tidak ada template yang cocok</h3>
+            <p style="font-size: 0.875rem;">Coba ubah kata kunci pencarian atau filter kategori Anda.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered.map(t => {
+        const isFav = favorites.includes(t.id);
+        const processedContent = getProcessedText(t.text);
+
+        return `
+          <div class="template-card" id="card-${t.id}">
+            <div class="card-top">
+              <div class="card-number-title">
+                <div class="card-num">#${t.id}</div>
+                <div>
+                  <div class="card-title">${t.title}</div>
+                  <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">Sub-kategori: <strong>${t.sub}</strong></div>
+                </div>
+              </div>
+              <div class="card-tags">
+                <span class="tag-style">Gaya: ${t.style}</span>
+              </div>
+            </div>
+            <div class="chat-bubble" id="bubble-${t.id}">${escapeHtml(processedContent)}</div>
+            <div class="card-actions">
+              <button class="btn-fav ${isFav ? 'active' : ''}" onclick="toggleFav(${t.id})" title="Simpan ke Favorit">
+                ${isFav ? '★ Favorit' : '☆ Tambah Favorit'}
+              </button>
+              <button class="btn-copy" onclick="copyTemplate(${t.id})">
+                📋 Copy Chat WA
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function openGuideModal() {
+      document.getElementById('guideModal').style.display = 'flex';
+    }
+
+    function closeGuideModal() {
+      document.getElementById('guideModal').style.display = 'none';
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderTemplates();
+    });
+  </script>
+</body>
+</html>
