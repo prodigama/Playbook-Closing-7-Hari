@@ -535,46 +535,132 @@
       justify-content: space-between;
     }
 
-    /* Print View Styling */
-    @media print {
-      header, aside, .top-controls, .card-actions, .toast {
-        display: none !important;
-      }
-      body {
-        background: #fff;
-        color: #000;
-      }
+    /* Hamburger button (hidden on desktop) */
+    .hamburger-btn {
+      display: none;
+      font-size: 1.1rem;
+      padding: 8px 12px;
+    }
+
+    /* Sidebar overlay for mobile drawer */
+    .sidebar-overlay {
+      display: none;
+    }
+
+    @media (max-width: 1024px) {
       main {
         max-width: 100%;
-        padding: 0;
       }
-      .template-card {
-        border: 1px solid #ccc;
-        break-inside: avoid;
-        margin-bottom: 12px;
-        background: #fff;
-        color: #000;
-      }
-      .chat-bubble {
-        background: #f5f5f5;
-        color: #000;
-        border: 1px solid #ddd;
+    }
+
+    @media (max-width: 900px) {
+      aside {
+        width: 260px;
       }
     }
 
     @media (max-width: 768px) {
+      .hamburger-btn {
+        display: flex;
+        order: -1;
+      }
+
+      header {
+        padding: 10px 14px;
+        flex-wrap: wrap;
+      }
+
+      .brand-title {
+        font-size: 1.05rem;
+      }
+
+      .brand-subtitle {
+        display: none;
+      }
+
+      .header-controls {
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+
+      .header-controls .btn-icon {
+        padding: 7px 10px;
+        font-size: 0.75rem;
+      }
+
       .app-container {
         flex-direction: column;
+        position: relative;
       }
+
       aside {
-        width: 100%;
-        height: auto;
-        position: static;
-        border-right: none;
-        border-bottom: 1px solid var(--border-color);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 82%;
+        max-width: 310px;
+        z-index: 200;
+        transform: translateX(-100%);
+        transition: transform 0.25s ease;
+        box-shadow: 0 0 30px rgba(0,0,0,0.4);
       }
+
+      aside.open {
+        transform: translateX(0);
+      }
+
+      .sidebar-overlay.show {
+        display: block;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.5);
+        z-index: 150;
+      }
+
       main {
         padding: 16px;
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .search-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .card-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .card-actions {
+        flex-wrap: wrap;
+      }
+
+      .power-grid,
+      .template-card,
+      .top-controls {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .brand-icon {
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+      }
+
+      .header-controls .btn-icon span,
+      .header-controls .btn-icon {
+        font-size: 0.7rem;
+      }
+
+      main {
+        padding: 12px;
       }
     }
   </style>
@@ -583,6 +669,9 @@
 
   <!-- Header -->
   <header>
+    <button class="btn-icon hamburger-btn" id="hamburgerBtn" onclick="toggleSidebar()" aria-label="Buka menu">
+      ☰
+    </button>
     <div class="brand">
       <div class="brand-icon">WA</div>
       <div>
@@ -597,17 +686,17 @@
       <button class="btn-icon" id="btnThemeToggle" onclick="toggleTheme()">
         🌙 Mode Gelap/Terang
       </button>
-      <button class="btn-icon" onclick="window.print()">
-        🖨️ Cetak / PDF
-      </button>
     </div>
   </header>
 
   <!-- App Main Container -->
   <div class="app-container">
-    
+
+    <!-- Mobile overlay for sidebar -->
+    <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+
     <!-- Sidebar Navigation -->
-    <aside>
+    <aside id="sidebar">
       <div>
         <div class="nav-group-title">Menu Utama</div>
         <ul class="nav-list">
@@ -1172,10 +1261,21 @@ Kebetulan kurir kita mau jalan kirim paket jam 2 siang ini. Mau sekalian disisip
       document.body.setAttribute('data-theme', savedTheme);
     })();
 
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('sidebarOverlay').classList.toggle('show');
+    }
+
+    function closeSidebar() {
+      document.getElementById('sidebar').classList.remove('open');
+      document.getElementById('sidebarOverlay').classList.remove('show');
+    }
+
     function selectCategory(catKey, element) {
       currentCategory = catKey;
       document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
       if (element) element.classList.add('active');
+      if (window.innerWidth <= 768) closeSidebar();
 
       const titleEl = document.getElementById('sectionTitle');
       const descEl = document.getElementById('sectionDesc');
